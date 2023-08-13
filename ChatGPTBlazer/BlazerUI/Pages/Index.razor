@@ -1,15 +1,21 @@
 ﻿@page "/"
-<link href="site.css" rel="stylesheet" />
+<link href="css/site.css" rel="stylesheet" />
+<link href="css/button-style.css" rel="stylesheet" />
+<link href="css/navbar.css" rel="stylesheet" />
+<link rel="stylesheet" href="bootstrap2/bootstrap.min.css">
+
+
+ 
 <PageTitle>FTCC's' AI Chatbot</PageTitle>
 
-<h1 class=" heading_main" style="text-align:center; font-family:microsoft himalayan; font-size: 6.5rem">FTCC AI CHATBOT</h1>
-<img src="Images/FTCC_Logo_Head.png" alt="FTCC Trojan Logo">
+<h1 class=" heading-main" style="text-align:center; font-family:microsoft himalayan; font-size: 6.5rem; margin-top: .5rem;">FTCC AI CHATBOT</h1>
+<img class="ftcc-logo" src="Images/FTCC2.png" alt="FTCC Trojan Logo">
 <input class="input-textbox" @bind="topic" placeholder="Message"></input>
  
  
  
  
-<p class="chatbot-output-box">Response
+<p class="chatbot-output-box"> 
  
      <div>
         <img src="Images/FTCC_AI_Head.png" alt="FTCC Trojan Logo">
@@ -29,10 +35,13 @@
         }
     }
 </p>
-<button @onclick="GenerateInstagramPost">Ask ChatAI</button>
-@*<p style="width: auto; padding: 30px; background-color: #ccc; margin-top: 20px;">@response</p>*@
-<button @onclick="ClearBox">Clear</button>
+<button class="glow-on-hover" @onclick="GenerateInstagramPost">Ask ChatAI</button>
+<button class="btn-hover color-1"@onclick="ClearBox">CLEAR</button>
  
+@*<p style="width: auto; padding: 30px; background-color: #ccc; margin-top: 20px;">@response</p>*@
+ 
+
+
 @using System.Net.Http;
 @using Newtonsoft.Json;
 @using System.Text;
@@ -50,10 +59,10 @@
     string response = "";
     string formattedResponse = "";
     List<string> messages = new List<string>(); 
-     
+
     private async Task GenerateInstagramPost()
     {
-         
+
         Http = new HttpClient();
         messages.Add(topic);
         var apiKey = "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";
@@ -66,16 +75,17 @@
             temperature = 0,
             max_tokens = 1000
         };
-         
+
         var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
         var resContext = await responseContent.Content.ReadAsStringAsync();
         var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
         messages.Add(data.choices[0].text.ToString());
         StateHasChanged();
+        topic = "";
     }
     private async Task ClearBox()
     {
-         
+        topic = "";
         messages.Clear();
     }
 

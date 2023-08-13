@@ -30,3 +30,35 @@ C:\Users\oreng\OneDrive\Desktop\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI
 C:\Users\oreng\OneDrive\Desktop\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\oreng\OneDrive\Desktop\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\OpenAI_API.dll
 C:\Users\oreng\OneDrive\Desktop\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\OpenAI-DotNet.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\appsettings.json
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\BlazerUI.staticwebassets.runtime.json
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\BlazerUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\BlazerUI.deps.json
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\BlazerUI.runtimeconfig.json
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\BlazerUI.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\BlazerUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\OpenAI_API.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\OpenAI-DotNet.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.AssemblyInfoInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.AssemblyInfo.cs
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.RazorAssemblyInfo.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.RazorAssemblyInfo.cs
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\scopedcss\bundle\BlazerUI.styles.css
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\scopedcss\projectbundle\BlazerUI.bundle.scp.css
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.csproj.CopyComplete
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\refint\BlazerUI.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.genruntimeconfig.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\ref\BlazerUI.dll

@@ -28,7 +28,7 @@
     }
 
     .nav-item:last-of-type {
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
     }
 
     .nav-item ::deep a {

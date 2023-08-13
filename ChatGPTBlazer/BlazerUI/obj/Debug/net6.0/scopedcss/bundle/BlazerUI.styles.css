@@ -10,7 +10,9 @@ main[b-3ynehbdijx] {
 }
 
 .sidebar[b-3ynehbdijx] {
-    background-image: linear-gradient(180deg, #09060d, #f0b825 50%);
+    /*background-image: linear-gradient(180deg, #09060d, #f0b825 50%);*/
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .top-row[b-3ynehbdijx] {
@@ -100,7 +102,7 @@ main[b-3ynehbdijx] {
     }
 
     .nav-item:last-of-type[b-0rj0gqzlnb] {
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
     }
 
     .nav-item[b-0rj0gqzlnb]  a {

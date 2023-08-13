@@ -3,21 +3,50 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+p {
+    word-wrap: break-word;
+}
 p, .chatbot-output-box {
-    width: 50%; 
-    padding: 30px; 
+    width: 80%;
+    height: 50%;
+    padding: 10px; 
     background-color: lightgreen; 
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 1.5rem;
     border-radius: 10px;
 }
 input, .input-textbox {
-    width: 30%;
-    padding: 30px;
-    background-color: aquamarine;
-    margin-top: 20px;
+    width: 60%;
+    height: 70px;
+    padding-top: 30px;
+    background-color: aquamarine;     
     font-size: 1.5rem;
     border-radius: 10px;
+    text-align: justify-all;
+   
+}
+ 
+button, .clear-button {
+  
+    color: #fff;
+    padding: 15px 25px;
+    margin-left: 15px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    cursor: pointer;
+ 
+}
+ 
+.ftcc-logo {
+    position: center;
 }
 h1:focus {
     outline: none;
@@ -77,3 +106,90 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+ 
+.heading-main {
+ 
+}
+@use postcss-preset-env {
+    stage: 0;
+}
+
+:root {
+    --color-background: #000119;
+    --stroke-width: calc(1em / 16);
+    --font-size: 30vmin;
+    --font-weight: 700;
+    --letter-spacing: calc(1em / 8);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background);
+    display: grid;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    min-block-size: 100vh;
+    place-items: center;
+    padding: 5vmin;
+}
+
+h1 {
+    background-clip: text;
+    background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
+    color: var(--color-background);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+    padding: calc(--stroke-width / 2);
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: var(--stroke-width);
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+    .btn-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+    .btn-hover:focus {
+        outline: none;
+    }
+
+    .btn-hover.color-1 {
+        background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+        box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    }
+ 

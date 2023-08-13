@@ -505,11 +505,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oreng\\OneDrive\\Desktop\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
+      "projectUniqueName": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
       "projectName": "BlazerUI",
-      "projectPath": "C:\\Users\\oreng\\OneDrive\\Desktop\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
+      "projectPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
       "packagesPath": "C:\\Users\\oreng\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oreng\\OneDrive\\Desktop\\ChatGPTBlazer\\BlazerUI\\obj\\",
+      "outputPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
