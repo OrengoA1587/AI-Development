@@ -30,15 +30,15 @@
         }
         else
         {
-            <div class="response" style="color: red">@chatBot@messages[i]</div>
+            <div class="response" style="color: red; padding-top:20px;">@chatBot@messages[i]</div>
              
         }
     }
 </p>
-<button class="glow-on-hover" @onclick="GenerateInstagramPost">Ask ChatAI</button>
-<button class="btn-hover color-1"@onclick="ClearBox">CLEAR</button>
  
-@*<p style="width: auto; padding: 30px; background-color: #ccc; margin-top: 20px;">@response</p>*@
+<button class="glow-on-hover" @onclick="GenerateInstagramPost">Ask ChatAI</button>
+<button class="btn-hover color-2"@onclick="ClearBox">CLEAR</button>
+ 
  
 
 
@@ -49,22 +49,22 @@
 @using System;
 @using System.Collections.Generic;
 @using System.Linq;
- 
+@using System.Drawing
 @inject HttpClient Http;
 @code {
     string user = "User: ";
-
     string chatBot = "ChatBot: ";
     string topic = "";
     string response = "";
     string formattedResponse = "";
-    List<string> messages = new List<string>(); 
-
+    List<string> messages = new List<string>();     
+     
     private async Task GenerateInstagramPost()
     {
 
         Http = new HttpClient();
         messages.Add(topic);
+         
         var apiKey = "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";
         Http.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
 
@@ -88,5 +88,6 @@
         topic = "";
         messages.Clear();
     }
-
+    
+ 
 }

@@ -2,6 +2,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    background-color: ghostwhite ;
+    border: groove;
+    border-color: black ;
+    border-width: 1em;
 }
 
 main {
@@ -46,7 +50,19 @@ main {
         margin-left: 0;
     }
 }
-
+.topnav {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-size: 2rem;
+    border: white;
+    border: ridge;
+}
+a {
+    font-family: 'Sans Serif Collection';
+}
+a:hover {
+    background-image: linear-gradient(to right, #FFD194, #D1913C);
+}
 @media (min-width: 641px) {
     .page {
         flex-direction: row;

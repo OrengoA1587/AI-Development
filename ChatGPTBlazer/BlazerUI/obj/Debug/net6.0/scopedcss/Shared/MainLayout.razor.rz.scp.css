@@ -2,6 +2,10 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    background-color: ghostwhite ;
+    border: groove;
+    border-color: black ;
+    border-width: 1em;
 }
 
 main[b-3ynehbdijx] {
@@ -46,7 +50,19 @@ main[b-3ynehbdijx] {
         margin-left: 0;
     }
 }
-
+.topnav[b-3ynehbdijx] {
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-size: 2rem;
+    border: white;
+    border: ridge;
+}
+a[b-3ynehbdijx] {
+    font-family: 'Sans Serif Collection';
+}
+a:hover[b-3ynehbdijx] {
+    background-image: linear-gradient(to right, #FFD194, #D1913C);
+}
 @media (min-width: 641px) {
     .page[b-3ynehbdijx] {
         flex-direction: row;

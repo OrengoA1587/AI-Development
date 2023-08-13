@@ -2,6 +2,7 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+     
 }
 p {
     word-wrap: break-word;
@@ -9,11 +10,13 @@ p {
 p, .chatbot-output-box {
     width: 80%;
     height: 50%;
-    padding: 10px; 
-    background-color: lightgreen; 
+    padding: 10px;
+    background-color: lightgreen;
     margin-top: 40px;
     font-size: 1.5rem;
     border-radius: 10px;
+    font-weight: bold;
+    font-style: italic;
 }
 input, .input-textbox {
     width: 60%;
@@ -23,7 +26,8 @@ input, .input-textbox {
     font-size: 1.5rem;
     border-radius: 10px;
     text-align: justify-all;
-   
+    font-weight: bold; 
+    font-style: italic;
 }
  
 button, .clear-button {
@@ -169,7 +173,7 @@ h1 {
     text-align: center;
     border: none;
     background-size: 300% 100%;
-    border-radius: 50px;
+    border-radius: 10px;
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
@@ -192,4 +196,18 @@ h1 {
         background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
         box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
     }
+    .btn-hover.color-2 {
+        background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+        box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    }
+    .btn-hover.color-3 {
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    }
+    .btn-hover.color-4 {
+        background-image: linear-gradient(to right, #000000 0%, #434343 51%, #000000 100%);
+        box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    }
+
+
  
