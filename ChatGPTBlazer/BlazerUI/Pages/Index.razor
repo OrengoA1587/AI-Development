@@ -82,6 +82,46 @@
         messages.Add(data.choices[0].text.ToString());
         StateHasChanged();
         topic = "";
+        //if(topic != ""){
+             
+        //    messages.Add(topic);
+        //    var jsonContent = new
+        //    {
+
+        //        prompt = $"{topic}",
+        //        model = "text-davinci-003",
+        //        temperature = 0,
+        //        max_tokens = 1000
+        //    };
+        //    var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+        //    var resContext = await responseContent.Content.ReadAsStringAsync();
+
+        //    var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
+        //    messages.Add(data.choices[0].text.ToString());
+        //    //StateHasChanged();
+        //    topic = "";
+        //}
+        //else if (topic == "")
+        //{
+             
+        //    topic = "What is a question?";
+        //    messages.Add(topic);
+        //    var jsonContent = new
+        //    {
+        //        prompt = $"{topic}",
+        //        model = "text-davinci-003",
+        //        temperature = 0,
+        //        max_tokens = 1000
+        //    };
+        //    var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+        //    var resContext = await responseContent.Content.ReadAsStringAsync();
+
+        //    var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
+        //    messages.Add(data.choices[0].text.ToString());
+        //    //StateHasChanged();
+        //    topic = "";
+        //}
+        //StateHasChanged();
     }
     private async Task ClearBox()
     {
