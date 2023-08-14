@@ -3,36 +3,99 @@
 <link href="css/button-style.css" rel="stylesheet" />
 <link href="css/navbar.css" rel="stylesheet" />
 <PageTitle>BlazerUI</PageTitle>
-
+ 
+    
 <div class="page">
-    @*<div class="sidebar">
-        <NavMenu />
-
-    </div>*@
      
     <main>
-        <div class="topnav">
-
-        <a class="nav-links" href="https://www.faytechcc.edu/">FTCC Home</a>
-        <a class="nav-links" href="https://faytechcc.blackboard.com/?new_loc=%2Fultra%2Fcourse">Blackboard</a>
-        <a class="nav-links" href="https://selfserv.faytechcc.edu/">Self Service</a>
-        <a class="nav-links" role="button" href="indexAdminLogin.jsp" data-target="#user-login" data-toggle="modal">Log In</a>
- 
+        <div class="nav" id="nav">             
+            <h1 class=" heading-main"><img src="Images/fayettevilletech_logo_full.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AI CHATBOT</h1>
+             <ul class="nav-menu clearfix unstyled">
+                <li>
+                    <a href="https://www.faytechcc.edu/" class="three-d">
+                        Home
+                        <span class="three-d-box"><span class="front">Home</span><span class="back">Go</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.faytechcc.edu/" class="three-d">
+                        FTCC
+                        <span class="three-d-box"><span class="front">FTCC</span><span class="back">Go</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://faytechcc.blackboard.com/?new_loc=%2Fultra%2Fcourse" class="three-d">
+                        Blackboard
+                        <span class="three-d-box"><span class="front">Blackboard</span><span class="back">Go</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://selfserv.faytechcc.edu/" class="three-d">
+                        Self-Service
+                        <span class="three-d-box"><span class="front">Self-Service</span><span class="back">Go</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.faytechcc.edu/contact/" class="three-d">
+                        Contact
+                        <span class="three-d-box"><span class="front">Contact</span><span class="back">Go</span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="three-d">
+                        Discover
+                        <span class="three-d-box"><span class="front">Discover</span><span class="back">Discover</span></span>
+                    </a>
+                    <ul class="clearfix unstyled drop-menu">
+                        <li>
+                            <a href="https://www.faytechcc.edu/news/" class="three-d">
+                                News
+                                <span class="three-d-box"><span class="front">News</span><span class="back">Go</span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.faytechcc.edu/financial-aid/" class="three-d">
+                                Financial Aid
+                                <span class="three-d-box"><span class="front">Financial Aid</span><span class="back">Go</span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.faytechcc.edu/events/" class="three-d">
+                                Events
+                                <span class="three-d-box"><span class="front">Events</span><span class="back">Go</span></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://map.faytechcc.edu/?id=2037#!ct/64989,64988,64235,63975,63968,64237,64238,64239,64240,64241,64242,64243,64244,64245,64221,64227,64229,64230,64231,64232,66570,66571?s/" class="three-d">
+                                Map
+                                <span class="three-d-box"><span class="front">Map</span><span class="back">Go</span></span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                 
+            </ul>
         </div>
+
+
         @*<div class="top-row px-4">
             <a href="https://docs.microsoft.com/aspnet/" target="_blank"></a>
         </div>*@
          
          
-        <article class="content px-4">
+        <article class="content px-4" style="background-color: @backgroundColor;">
+
             @Body
-            @*<button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
-            <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>*@
+           
+            <button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
+            <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>*
         </article>
+        
     </main>
-     
+ 
 </div>
-@*@using System.Net.Http;
+
+@using System.Net.Http;
 @using Newtonsoft.Json;
 @using System.Text;
 @using System.Net.Http.Headers;
@@ -72,4 +135,4 @@
     {
         return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
     }
-}*@
+}
