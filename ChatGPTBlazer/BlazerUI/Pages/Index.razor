@@ -7,6 +7,11 @@
 
  
 <PageTitle>FTCC's' AI Chatbot</PageTitle>
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>
 
 <h1 class=" heading-main" style="text-align:center; font-family:microsoft himalayan; font-size: 6.5rem; margin-top: .5rem;">FTCC AI CHATBOT</h1>
 <img class="ftcc-logo" src="Images/FTCC2.png" alt="FTCC Trojan Logo">
@@ -30,7 +35,7 @@
         }
         else
         {
-            <div class="response" style="color: red; padding-top:20px;">@chatBot@messages[i]</div>
+            <div class="response" style="color: red">@chatBot@messages[i]</div>
              
         }
     }
@@ -68,66 +73,68 @@
         var apiKey = "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";
         Http.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
 
-        var jsonContent = new
+        
+        if(topic != ""){
+             
+            messages.Add(topic);
+            var jsonContent = new
+            {
+
+                prompt = $"{topic}",
+                model = "text-davinci-003",
+                temperature = 0,
+                max_tokens = 1000
+            };
+            var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+            var resContext = await responseContent.Content.ReadAsStringAsync();
+
+            var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
+            messages.Add(data.choices[0].text.ToString());
+            //StateHasChanged();
+            topic = "";
+        }
+        else if (topic == "")
         {
-            prompt = $"{topic}",
-            model = "text-davinci-003",
-            temperature = 0,
-            max_tokens = 1000
-        };
+             
+            topic = "What is a question?";
+            messages.Add(topic);
+            var jsonContent = new
+            {
+                prompt = $"{topic}",
+                model = "text-davinci-003",
+                temperature = 0,
+                max_tokens = 1000
+            };
+            var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+            var resContext = await responseContent.Content.ReadAsStringAsync();
 
-        var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
-        var resContext = await responseContent.Content.ReadAsStringAsync();
-        var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
-        messages.Add(data.choices[0].text.ToString());
+            var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
+            messages.Add(data.choices[0].text.ToString());
+            //StateHasChanged();
+            topic = "";
+        }
         StateHasChanged();
-        topic = "";
-        //if(topic != ""){
-             
-        //    messages.Add(topic);
-        //    var jsonContent = new
-        //    {
-
-        //        prompt = $"{topic}",
-        //        model = "text-davinci-003",
-        //        temperature = 0,
-        //        max_tokens = 1000
-        //    };
-        //    var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
-        //    var resContext = await responseContent.Content.ReadAsStringAsync();
-
-        //    var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
-        //    messages.Add(data.choices[0].text.ToString());
-        //    //StateHasChanged();
-        //    topic = "";
-        //}
-        //else if (topic == "")
-        //{
-             
-        //    topic = "What is a question?";
-        //    messages.Add(topic);
-        //    var jsonContent = new
-        //    {
-        //        prompt = $"{topic}",
-        //        model = "text-davinci-003",
-        //        temperature = 0,
-        //        max_tokens = 1000
-        //    };
-        //    var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
-        //    var resContext = await responseContent.Content.ReadAsStringAsync();
-
-        //    var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
-        //    messages.Add(data.choices[0].text.ToString());
-        //    //StateHasChanged();
-        //    topic = "";
-        //}
-        //StateHasChanged();
     }
     private async Task ClearBox()
     {
         topic = "";
         messages.Clear();
+        StateHasChanged();
     }
-    
+    //var jsonContent = new
+    //{
+    //    prompt = $"{topic}",
+    //    model = "text-davinci-003",
+    //    temperature = 0,
+    //    max_tokens = 4000
+    //};
+
+    //var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+    //var resContext = await responseContent.Content.ReadAsStringAsync();
+    //var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
+
+    //messages.Add(data.choices[0].message.content;
+    //StateHasChanged();
+        //topic = "";
  
 }

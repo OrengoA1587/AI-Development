@@ -4,7 +4,7 @@
 <link href="css/navbar.css" rel="stylesheet" />
 <PageTitle>BlazerUI</PageTitle>
 
-<div class="page" style="background-color: @backgroundColor;">
+<div class="page">
     @*<div class="sidebar">
         <NavMenu />
 
@@ -24,15 +24,15 @@
         </div>*@
          
          
-        <article class="content px-4" style="background-color: @backgroundColor;">
+        <article class="content px-4">
             @Body
-            <button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
-            <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
+            @*<button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
+            <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>*@
         </article>
     </main>
      
 </div>
-@using System.Net.Http;
+@*@using System.Net.Http;
 @using Newtonsoft.Json;
 @using System.Text;
 @using System.Net.Http.Headers;
@@ -72,4 +72,4 @@
     {
         return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
     }
-}
+}*@
