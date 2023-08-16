@@ -20,9 +20,9 @@
 
  
  
-<p class="chatbot-output-box" style="text-align:justify;display:inline-block; "> 
- 
-     <div>
+<p class="chatbot-output-box" style="text-align:justify;display:inline-block;background-color: @backgroundColor;">
+
+    <div>
         <img src="Images/FTCC_AI_Head.png" alt="FTCC Trojan Logo">
          
     </div> 
@@ -44,7 +44,8 @@
  
 <button class="glow-on-hover" @onclick="GenerateInstagramPost">Ask ChatAI</button>
 <button class="btn-hover color-2"@onclick="ClearBox">CLEAR</button>
- 
+<button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
+<button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
  
 
 
@@ -138,5 +139,33 @@
     //messages.Add(data.choices[0].message.content;
     //StateHasChanged();
         //topic = "";
- 
+    private string backgroundColor = "white";
+
+    private void ChangeBackgroundColor()
+    {
+        if (backgroundColor == "white")
+        {
+            backgroundColor = "black";
+        }
+        else
+        {
+            backgroundColor = "white";
+        }
+    }
+    private void ChangeBackgroundColorRandom()
+    {
+        Color randomColor = GetRandomColor();
+        backgroundColor = ColorToHex(randomColor);
+    }
+
+    private Color GetRandomColor()
+    {
+        Random random = new Random();
+        return Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
+    }
+
+    private string ColorToHex(Color color)
+    {
+        return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+    }
 }

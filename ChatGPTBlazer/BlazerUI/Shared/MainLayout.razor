@@ -48,7 +48,7 @@
                     </a>
                     <ul class="clearfix unstyled drop-menu">
                         <li>
-                            <a href="Dashboard.razor" class="three-d">
+                            <a href="LoginModal" class="three-d">
                                 Login
                                 <span class="three-d-box"><span class="front">Login</span><span class="back">Go</span></span>
                             </a>
@@ -90,12 +90,11 @@
         </div>*@
          
          
-        <article class="content px-4" style="background-color: @backgroundColor;">
+        <article class="content px-4" >
 
             @Body
            
-            <button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
-            <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>*
+             
         </article>
         
     </main>
@@ -113,33 +112,33 @@
 @inject HttpClient Http;
 @code {
 
-    private string backgroundColor = "white";
+    //private string backgroundColor = "white";
 
-    private void ChangeBackgroundColor()
-    {
-        if(backgroundColor == "white")
-        {
-            backgroundColor = "black";
-        }
-        else
-        {
-            backgroundColor = "white";
-        }        
-    }
-    private void ChangeBackgroundColorRandom()
-    {
-        Color randomColor = GetRandomColor();
-        backgroundColor = ColorToHex(randomColor);
-    }
+    //private void ChangeBackgroundColor()
+    //{
+    //    if(backgroundColor == "white")
+    //    {
+    //        backgroundColor = "black";
+    //    }
+    //    else
+    //    {
+    //        backgroundColor = "white";
+    //    }        
+    //}
+    //private void ChangeBackgroundColorRandom()
+    //{
+    //    Color randomColor = GetRandomColor();
+    //    backgroundColor = ColorToHex(randomColor);
+    //}
 
-    private Color GetRandomColor()
-    {
-        Random random = new Random();
-        return Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
-    }
+    //private Color GetRandomColor()
+    //{
+    //    Random random = new Random();
+    //    return Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
+    //}
 
-    private string ColorToHex(Color color)
-    {
-        return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
-    }
+    //private string ColorToHex(Color color)
+    //{
+    //    return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+    //}
 }
