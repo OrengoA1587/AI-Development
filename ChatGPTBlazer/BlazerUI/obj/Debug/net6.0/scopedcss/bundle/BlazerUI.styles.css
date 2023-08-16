@@ -247,21 +247,23 @@ ul[b-3ynehbdijx], li[b-3ynehbdijx] {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-.nav-menu li .active .front[b-3ynehbdijx],
-.nav-menu li .active .back[b-3ynehbdijx],
-.nav-menu li a:hover .front[b-3ynehbdijx],
-.nav-menu li a:hover .back[b-3ynehbdijx] {
-    background-color: #f1b825;
-    -webkit-background-size: 5px 5px;
-    background-size: 5px 5px;
-    background-position: 0 0, 30px 30px;
-    background-image: -webit-linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
-    background-image: -moz-linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
-    background-image: -ms-linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
-    background-image: -o-linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
-    background-image: linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
-}
+    .back[b-3ynehbdijx]{
+        color: black;
+    }
+    .nav-menu li .active .front[b-3ynehbdijx],
+    .nav-menu li .active .back[b-3ynehbdijx],
+    .nav-menu li a:hover .front[b-3ynehbdijx],
+    .nav-menu li a:hover .back[b-3ynehbdijx] {
+        background-color: #f1b825;
+        -webkit-background-size: 5px 5px;
+        background-size: 5px 5px;
+        background-position: 0 0, 30px 30px;
+        background-image: -webit-linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
+        background-image: -moz-linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
+        background-image: -ms-linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
+        background-image: -o-linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
+        background-image: linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825), linear-gradient(45deg, #f1b825 25%, transparent 25%, transparent 75%, #f1b825 75%, #f1b825);
+    }
 
 .nav-menu ul[b-3ynehbdijx] {
     position: absolute;

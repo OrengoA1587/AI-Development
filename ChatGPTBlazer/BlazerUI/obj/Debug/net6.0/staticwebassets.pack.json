@@ -1,0 +1,165 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazerUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazerUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC2.png",
+      "PackagePath": "staticwebassets\\Images\\FTCC2.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC_AI_Head.png",
+      "PackagePath": "staticwebassets\\Images\\FTCC_AI_Head.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC_Logo_Head.png",
+      "PackagePath": "staticwebassets\\Images\\FTCC_Logo_Head.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\TrojanLogo.png",
+      "PackagePath": "staticwebassets\\Images\\TrojanLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\TrojanLogo2.png",
+      "PackagePath": "staticwebassets\\Images\\TrojanLogo2.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\Untitled design(108).png",
+      "PackagePath": "staticwebassets\\Images\\Untitled design(108).png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\background_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\background_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fayettevilletech_logo_full.png",
+      "PackagePath": "staticwebassets\\Images\\fayettevilletech_logo_full.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\boostrap2\\Navigation-with-Button.css",
+      "PackagePath": "staticwebassets\\css\\boostrap2\\Navigation-with-Button.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\boostrap2\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\boostrap2\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\bs-init.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\js\\bs-init.js"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\chart.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\loginAction.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\js\\loginAction.js"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\theme.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\button-style.css",
+      "PackagePath": "staticwebassets\\css\\button-style.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\button-style2.css",
+      "PackagePath": "staticwebassets\\css\\button-style2.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\calculatorPage.css",
+      "PackagePath": "staticwebassets\\css\\calculatorPage.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\indexPage.css",
+      "PackagePath": "staticwebassets\\css\\indexPage.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\navbar.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazerUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BlazerUI.props",
+      "PackagePath": "build\\BlazerUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazerUI.props",
+      "PackagePath": "buildMultiTargeting\\BlazerUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BlazerUI.props",
+      "PackagePath": "buildTransitive\\BlazerUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

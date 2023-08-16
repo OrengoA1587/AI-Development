@@ -20,7 +20,7 @@
 
  
  
-<p class="chatbot-output-box"> 
+<p class="chatbot-output-box" style="text-align:justify;display:inline-block; "> 
  
      <div>
         <img src="Images/FTCC_AI_Head.png" alt="FTCC Trojan Logo">
@@ -35,9 +35,10 @@
         }
         else
         {
-            <div class="response" style="color: red">@chatBot@messages[i]</div>
+            <div class="response" style="color: red">@chatBot@messages[i] </div>
              
         }
+        
     }
 </p>
  
@@ -63,19 +64,19 @@
     string response = "";
     string formattedResponse = "";
     List<string> messages = new List<string>();     
-     
+
     private async Task GenerateInstagramPost()
     {
 
         Http = new HttpClient();
-        messages.Add(topic);
-         
+        //messages.Add(topic);
+
         var apiKey = "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";
         Http.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
 
-        
+
         if(topic != ""){
-             
+
             messages.Add(topic);
             var jsonContent = new
             {
@@ -85,24 +86,24 @@
                 temperature = 0,
                 max_tokens = 1000
             };
-            var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+            var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
             var resContext = await responseContent.Content.ReadAsStringAsync();
 
-            var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
+            var data = JsonConvert.DeserializeObject<dynamic>(resContext);
             messages.Add(data.choices[0].text.ToString());
             //StateHasChanged();
             topic = "";
         }
         else if (topic == "")
         {
-             
+
             topic = "What is a question?";
             messages.Add(topic);
             var jsonContent = new
             {
                 prompt = $"{topic}",
                 model = "text-davinci-003",
-                temperature = 0,
+                temperature = 1,
                 max_tokens = 1000
             };
             var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
@@ -110,6 +111,7 @@
 
             var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
             messages.Add(data.choices[0].text.ToString());
+            
             //StateHasChanged();
             topic = "";
         }
