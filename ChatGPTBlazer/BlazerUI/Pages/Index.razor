@@ -16,6 +16,20 @@
 
 <div>     
     <input class="input-textbox" @bind="topic" placeholder="Enter Message --> "></input>      
+    <h3>Temperature</h3>
+    <select data-val="true" data-val-required="The Category field is required." id="category" name="1">
+        <option value="0">0</option>
+        <option value=".1">.1</option>
+        <option value=".2">.2</option>
+        <option value=".3">.3</option>
+        <option value=".4">.4</option>
+        <option value=".5">.5</option>
+        <option value=".6">.6</option>
+        <option value=".7">.7</option>
+        <option value=".8">.8</option>
+        <option value=".9">.9</option>
+        <option value="1">1</option>         
+    </select>
 </div>
 
  
@@ -35,14 +49,15 @@
         }
         else
         {
-            <div class="response" style="color: red">@chatBot@messages[i] </div>
+            <div class="question" style="color:red">@chatBot@messages[i]; </div>
              
+
         }
-        
+         
     }
-</p>
+</p> 
  
-<button class="glow-on-hover" @onclick="GenerateInstagramPost">Ask ChatAI</button>
+<button class="glow-on-hover" @onclick="GenerateMessage">Ask ChatAI</button>
 <button class="btn-hover color-2"@onclick="ClearBox">CLEAR</button>
 <button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
 <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
@@ -54,45 +69,50 @@
 @using System.Text;
 @using System.Net.Http.Headers;
 @using System;
+@using System.Configuration;
 @using System.Collections.Generic;
 @using System.Linq;
 @using System.Drawing
+@using BlazerUI.Data;
+@using OpenAI_API;
 @inject HttpClient Http;
 @code {
     string user = "User: ";
     string chatBot = "ChatBot: ";
+    string tempString = "";
+    int temp = 0;
     string topic = "";
     string response = "";
     string formattedResponse = "";
+
+
     List<string> messages = new List<string>();     
 
-    private async Task GenerateInstagramPost()
+    private async Task GenerateMessage()
     {
-
+        //Console.WriteLine(temp);
         Http = new HttpClient();
-        //messages.Add(topic);
-
-        var apiKey = "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";
+        var apiKey = ConfigurationManager.ConnectionStrings["APIKey"].ToString();
+        var openAi = new OpenAIAPI(apiKey);
         Http.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
-
-
-        if(topic != ""){
+        if (topic != "")
+        {
 
             messages.Add(topic);
             var jsonContent = new
             {
-
                 prompt = $"{topic}",
                 model = "text-davinci-003",
-                temperature = 0,
-                max_tokens = 1000
-            };
+                temperature = $"{temp}",
+                max_tokens = 1000            };
+             
+             
             var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
             var resContext = await responseContent.Content.ReadAsStringAsync();
 
             var data = JsonConvert.DeserializeObject<dynamic>(resContext);
-            messages.Add(string.Concat(data.choices[0].text.ToString()));
-            //StateHasChanged();
+            messages.Add(data.choices[0].text.ToString());
+
             topic = "";
         }
         else if (topic == "")
@@ -111,9 +131,7 @@
             var resContext = await responseContent.Content.ReadAsStringAsync();
 
             var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
-            messages.Add(string.Concat(data.choices[0].text.ToString()));
-            
-            //StateHasChanged();
+            messages.Add(string.Concat(data.choices[0].text.ToString()));            
             topic = "";
         }
         StateHasChanged();
@@ -124,21 +142,6 @@
         messages.Clear();
         StateHasChanged();
     }
-    //var jsonContent = new
-    //{
-    //    prompt = $"{topic}",
-    //    model = "text-davinci-003",
-    //    temperature = 0,
-    //    max_tokens = 4000
-    //};
-
-    //var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
-    //var resContext = await responseContent.Content.ReadAsStringAsync();
-    //var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
-
-    //messages.Add(data.choices[0].message.content;
-    //StateHasChanged();
-        //topic = "";
     private string backgroundColor = "white";
 
     private void ChangeBackgroundColor()

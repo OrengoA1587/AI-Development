@@ -8,7 +8,7 @@ html, body {
     background-image: url("Images/Untitled design(108).png");
 }*/
 p {
-    word-wrap: break-word;
+    word-wrap:  normal;
 }
 p, .chatbot-output-box {
     width: 100%;
@@ -20,6 +20,7 @@ p, .chatbot-output-box {
     border-radius: 10px;
     font-weight: bold;
     font-style: italic;
+    word-wrap:  inherit;
 }
 input, .input-textbox {
     width: 100%;
