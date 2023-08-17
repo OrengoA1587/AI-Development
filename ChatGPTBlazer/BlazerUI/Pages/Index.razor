@@ -72,7 +72,7 @@
         Http = new HttpClient();
         //messages.Add(topic);
 
-        var apiKey = "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";
+        var apiKey = "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";
         Http.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
 
 
@@ -91,7 +91,7 @@
             var resContext = await responseContent.Content.ReadAsStringAsync();
 
             var data = JsonConvert.DeserializeObject<dynamic>(resContext);
-            messages.Add(data.choices[0].text.ToString());
+            messages.Add(string.Concat(data.choices[0].text.ToString()));
             //StateHasChanged();
             topic = "";
         }
@@ -111,7 +111,7 @@
             var resContext = await responseContent.Content.ReadAsStringAsync();
 
             var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
-            messages.Add(data.choices[0].text.ToString());
+            messages.Add(string.Concat(data.choices[0].text.ToString()));
             
             //StateHasChanged();
             topic = "";
