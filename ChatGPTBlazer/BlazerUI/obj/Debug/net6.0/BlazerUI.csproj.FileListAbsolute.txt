@@ -316,3 +316,7 @@ C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\b
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Data\App.config
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\BlazerUI.dll.config
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.csproj.ResolveComReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\AngleSharp.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Xamarin.Essentials.dll

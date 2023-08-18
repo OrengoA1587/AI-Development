@@ -45,6 +45,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.51, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.21, )"
@@ -70,6 +78,10 @@
             "OpenAI-DotNet": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.0, )"
             }
           },
           "imports": [
