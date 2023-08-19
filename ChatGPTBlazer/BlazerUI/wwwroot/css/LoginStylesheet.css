@@ -106,30 +106,39 @@ button {
 
 .social {
     margin-top: 30px;
+    padding-left: 15px;
+     
     display: flex;
+    text-decoration: none;
 }
+    .social .go, fab fa-google {
+        padding-left: 25px;
+        padding-right: 15px;
+        margin-right: 15px;
+        color: blue;
 
+    }
     .social div {
         background: red;
         width: 150px;
         border-radius: 3px;
         padding: 5px 10px 10px 5px;
-        background-color: rgba(255,255,255,0.27);
+        background-color:red;         
         color: #eaf0fb;
         text-align: center;
+        text-decoration: none;
     }
-
-        .social div:hover {
-            background-color: rgba(255,255,255,0.47);
+        .social :hover {
+            background: blue;
         }
 
-    .social .fb {
-        margin-left: 25px;
-    }
-
-    .social i {
-        margin-right: 4px;
-    }
+.social,a{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+     
+}
+   
 .glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -184,3 +193,5 @@ button {
         background-position: 0 0;
     }
 }
+
+ 

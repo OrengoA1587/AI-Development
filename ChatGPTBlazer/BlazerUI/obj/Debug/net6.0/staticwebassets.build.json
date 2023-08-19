@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qTGN8CDf4GfBmlVQYYeuMmg2Eka5kGWv43ehdSdUsl0=",
+  "Hash": "c5VEtIAEQbALmqVLeRyOv1XdNoeNvLVhjZB0s3C8lLI=",
   "Source": "BlazerUI",
   "BasePath": "_content/BlazerUI",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\calculatorPage.css"
+    },
+    {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\DashboardStylesheet.css",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "css/DashboardStylesheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DashboardStylesheet.css"
     },
     {
       "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\indexPage.css",
