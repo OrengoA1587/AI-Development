@@ -6,7 +6,7 @@
  
 <PageTitle>FTCC's' AI Chatbot</PageTitle>
 
-<div id="blazor-error-ui">
+@*<div id="blazor-error-ui">
     An unhandled error has occurred.
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
@@ -20,21 +20,7 @@
     <div class="container-box1">
         <input class="input-textbox textbox-temp" @bind="getTemp" placeholder="Temp"></input>
     </div>     
-    
      
-    @*<select data-val="true" @bind="temp" data-val-required="The Category field is required." id="category" name="1">
-        <option value="0">0</option>
-        <option value=".1">.1</option>
-        <option value=".2">.2</option>
-        <option value=".3">.3</option>
-        <option value=".4">.4</option>
-        <option value=".5">.5</option>
-        <option value=".6">.6</option>
-        <option value=".7">.7</option>
-        <option value=".8">.8</option>
-        <option value=".9">.9</option>
-        <option value="1">1</option>         
-    </select>*@
 </div> 
  
 <p class="chatbot-output-box" style="text-align:justify;display:inline-block;background-color: @backgroundColor;">
@@ -172,4 +158,4 @@
     {
         return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
     }
-}
+}*@

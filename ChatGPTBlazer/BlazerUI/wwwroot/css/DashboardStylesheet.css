@@ -1,6 +1,6 @@
 ﻿
-body, .dashboard-background {
-    background-color: white;
+.dashboard-background {
+    background: linear-gradient(#f077fd, #93fdfc );
 }
 h1, .dashboard-heading {
     

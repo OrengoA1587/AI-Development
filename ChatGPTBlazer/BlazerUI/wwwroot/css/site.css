@@ -14,20 +14,23 @@ p, .chatbot-output-box {
     width: 100%;
     height: 50%;
     padding: 10px;
-    background-color: lightgray;
+    background-color: white;
+    color:black;
     margin-top: 40px;
     font-size: 1.5rem;
     border-radius: 10px;
     font-weight: bold;
     font-style: italic;
     word-wrap:  inherit;
+    
 }
+
 input, .input-textbox {
     width: 100%;
     height: 100px;
     padding-top: 10px;
     text-align: left;
-    background-color: lightgray;
+    background-color:  white;
     color: black;
     font-size: 1.5rem;
     border-radius: 5px;
@@ -36,7 +39,7 @@ input, .input-textbox {
     font-style: italic;
 }
 input, .textbox-temp {
-    width: 7%;
+    width: 10%;
     height: 60px;
     color: red;
     padding-top: 5px;

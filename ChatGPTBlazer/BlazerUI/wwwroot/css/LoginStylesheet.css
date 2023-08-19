@@ -9,17 +9,18 @@
 body {
     background-color: #080710;
     position: relative;
+
 }
 
 .background {
-    width: 430px;
-    height: 520px;
+    width: 530px;
+    height: 770px;
     position: absolute;
-    transform: translate(25%,-50%);
+    transform: translate(19%,-50%);
     left: 50%;
     top: 50%;
 }
-
+ 
     .background .shape {
         height: 200px;
         width: 200px;
@@ -28,19 +29,19 @@ body {
     }
 
 .shape:first-child {
-    background: linear-gradient( #1845ad, #23a2f6 );
+    background: linear-gradient(#f077fd, #93fdfc );
     left: -80px;
     top: -80px;
 }
 
 .shape:last-child {
-    background: linear-gradient( to right, #ff512f, #f09819 );
+    background: linear-gradient( to right, #93fdfc, #fcb2fd );
     right: -30px;
     bottom: -80px;
 }
 
 form {
-    height: 520px;
+    height: 720px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
@@ -101,13 +102,15 @@ button {
     font-size: 18px;
     font-weight: 600;
     border-radius: 5px;
+    border-style: solid;
+    border-width:3px;
+    border-color:black;
     cursor: pointer;
 }
 
 .social {
     margin-top: 30px;
     padding-left: 15px;
-     
     display: flex;
     text-decoration: none;
 }
@@ -115,33 +118,36 @@ button {
         padding-left: 25px;
         padding-right: 15px;
         margin-right: 15px;
-        color: blue;
-
+        color: #f077fd;
     }
     .social div {
-        background: red;
-        width: 150px;
-        border-radius: 3px;
+        background: linear-gradient(#f077fd, #93fdfc );
+        width: 250px;
+        border-radius: 7px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: white;
         padding: 5px 10px 10px 5px;
-        background-color:red;         
+        background-color: red;
         color: #eaf0fb;
         text-align: center;
         text-decoration: none;
     }
-        .social :hover {
-            background: blue;
-        }
+    .social :hover {
+        background:#f077fd;
+        color: white;
+    }
 
-.social,a{
+.social, a {
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 25px;
     text-decoration: none;
-     
+    color: black;
 }
-   
-.glow-on-hover:before {
+ 
+.glow-on-hover:before{
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #93fdfc, #f077fd, #93fdfc, #f077fd, #93fdfc, #f077fd, #93fdfc, #f077fd, #93fdfc);
     position: absolute;
     top: -2px;
     left: -2px;
@@ -154,6 +160,8 @@ button {
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
+     
+    
 }
 
 .glow-on-hover:active {
