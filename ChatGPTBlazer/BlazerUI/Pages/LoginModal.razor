@@ -1,6 +1,7 @@
 ﻿@page "/loginmodal"
 @layout EmptyLayout
-
+@using DataAccessLibrary;
+@using System.Web;
 <head>
     
     <title></title>
@@ -24,21 +25,55 @@
         <h3>Student Login</h3>
 
         <label for="username">Username</label>
-        <input type="text" name="username" placeholder="Email or Phone" id="username" >
+        <input @bind = "username" type="text"  placeholder="Username" id="username">
 
         <label for="password">Password</label>
-        <input type="password" name="password" placeholder="Password" id="password">
+        <input @bind="password"  type="password" placeholder="Password" id="password">
 
-        <button class="glow-on-hover" type="button" value="Login" onClick="loginPage(this.form)">Log In</button>
+        <button class="glow-on-hover" @onclick="Login">Log In</button>
         <div class="social">
             <div class="go"><a class="fab fa-google"  href="https://www.google.com">oogle</a></div>
             <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>
             
         </div>
     </form>
+    <button class="glow-on-hover" @onclick="Login">Log In</button>
 </body>
-
+ 
+@inject HttpClient Http;
 @code {
-    string username;
-    string password;
+    @inject NavigationManager navigationManager
+    string username = "";
+    string password = "";
+    GetPerson getPerson = null; 
+     
+    void Login()
+    {
+
+        navigationManager.NavigateTo("/");
+
+         
+         
+        //if(GetPerson.VerifyPerson(username, password) == true)
+        //{
+           
+
+            
+        //    NavManager.NavigateTo("LoginTest", true);
+
+        //}
+        //else
+        //{
+           
+        //    NavManager.NavigateTo("/Error");
+        
+
+        //}
+         
+
+
+             
+             
+    }
+
 }

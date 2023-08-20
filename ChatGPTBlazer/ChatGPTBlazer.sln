@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazerUI", "BlazerUI\BlazerUI.csproj", "{D26286C6-7797-40D9-A73E-774C3DC4D3F2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{B4A12F22-2ABB-4D11-9D05-70E8A462D677}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D26286C6-7797-40D9-A73E-774C3DC4D3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D26286C6-7797-40D9-A73E-774C3DC4D3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D26286C6-7797-40D9-A73E-774C3DC4D3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A12F22-2ABB-4D11-9D05-70E8A462D677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A12F22-2ABB-4D11-9D05-70E8A462D677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A12F22-2ABB-4D11-9D05-70E8A462D677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A12F22-2ABB-4D11-9D05-70E8A462D677}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

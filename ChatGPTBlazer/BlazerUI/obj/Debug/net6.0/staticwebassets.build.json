@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c5VEtIAEQbALmqVLeRyOv1XdNoeNvLVhjZB0s3C8lLI=",
+  "Hash": "cTYRTQYiXurDvMTqQ/I91EObhVAmD06owESbHj4NiUw=",
   "Source": "BlazerUI",
   "BasePath": "_content/BlazerUI",
   "Mode": "Default",
@@ -678,23 +678,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Untitled design(108).png"
-    },
-    {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\LoginAction.js",
-      "SourceId": "BlazerUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
-      "BasePath": "_content/BlazerUI",
-      "RelativePath": "LoginAction.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\LoginAction.js"
     }
   ]
 }

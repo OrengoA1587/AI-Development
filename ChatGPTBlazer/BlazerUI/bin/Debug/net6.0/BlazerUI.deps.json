@@ -9,6 +9,7 @@
       "BlazerUI/1.0.0": {
         "dependencies": {
           "AngleSharp": "1.0.4",
+          "DataAccessLibrary": "1.0.0",
           "HtmlAgilityPack": "1.11.51",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.21",
@@ -30,6 +31,14 @@
           "lib/net6.0/AngleSharp.dll": {
             "assemblyVersion": "1.0.4.0",
             "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Dapper/2.0.151": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.151.35995"
           }
         }
       },
@@ -1547,6 +1556,14 @@
           }
         }
       },
+      "NLog/5.2.3": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.2.3.1999"
+          }
+        }
+      },
       "NuGet.Common/6.6.1": {
         "dependencies": {
           "NuGet.Frameworks": "6.6.1"
@@ -2534,6 +2551,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "DataAccessLibrary/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.151",
+          "Microsoft.Data.SqlClient": "2.1.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
+          "NLog": "5.2.3"
+        },
+        "runtime": {
+          "DataAccessLibrary.dll": {}
+        }
       }
     }
   },
@@ -2549,6 +2577,13 @@
       "sha512": "sha512-G8R4C2MEDFQvjUbYz1QIcGfibjsTJnzP0aWy8iQgWWk7eKacYydCNGD3JMhVL0Q5pZQ9RYlqpKNESEU5NpqsRw==",
       "path": "anglesharp/1.0.4",
       "hashPath": "anglesharp.1.0.4.nupkg.sha512"
+    },
+    "Dapper/2.0.151": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mMcZgx1lim0/i1Ozu+lgnBM4GwNIHpCuxV6BV2ovsEfZAXRAq4jb6RIhxGDcVjtmXMLPpdp85jHPdDjBMMwejw==",
+      "path": "dapper/2.0.151",
+      "hashPath": "dapper.2.0.151.nupkg.sha512"
     },
     "HtmlAgilityPack/1.11.51": {
       "type": "package",
@@ -3334,6 +3369,13 @@
       "path": "newtonsoft.json/13.0.3",
       "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
+    "NLog/5.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rHTNRtQF5qYqLutSR9ldUWXglKym/KA1R6GKw4JtDvza8i5+kgfmeKH75Ccn1noeJIOjHLXorphMxKk3EiN2tg==",
+      "path": "nlog/5.2.3",
+      "hashPath": "nlog.5.2.3.nupkg.sha512"
+    },
     "NuGet.Common/6.6.1": {
       "type": "package",
       "serviceable": true,
@@ -4096,6 +4138,11 @@
       "sha512": "sha512-g1yB0CkX7BVOx84P0SLm8guypbEfigqjddZsI9KgJzba6yRRcekBqDp6YTT1hO8ZcFcW8VZbsymejTJftJoQyg==",
       "path": "xamarin.essentials/1.8.0",
       "hashPath": "xamarin.essentials.1.8.0.nupkg.sha512"
+    },
+    "DataAccessLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
