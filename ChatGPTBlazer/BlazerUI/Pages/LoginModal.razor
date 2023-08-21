@@ -30,19 +30,23 @@
         <label for="password">Password</label>
         <input @bind="password"  type="password" placeholder="Password" id="password">
 
-        <button class="glow-on-hover" @onclick="Login">Log In</button>
-        <div class="social">
+        <button class="glow-on-hover" type="button" @onclick="Login">Log In</button>
+         
+         <div class="social">
+             
+
             <div class="go"><a class="fab fa-google"  href="https://www.google.com">oogle</a></div>
             <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>
             
         </div>
+         
     </form>
-    <button class="glow-on-hover" @onclick="Login">Log In</button>
+      
 </body>
  
 @inject HttpClient Http;
 @code {
-    @inject NavigationManager navigationManager
+    @inject NavigationManager NavManager
     string username = "";
     string password = "";
     GetPerson getPerson = null; 
@@ -50,30 +54,18 @@
     void Login()
     {
 
-        navigationManager.NavigateTo("/");
+        //navigationManager.NavigateTo("/");
 
          
          
-        //if(GetPerson.VerifyPerson(username, password) == true)
-        //{
-           
-
-            
-        //    NavManager.NavigateTo("LoginTest", true);
-
-        //}
-        //else
-        //{
-           
-        //    NavManager.NavigateTo("/Error");
-        
-
-        //}
-         
-
-
-             
-             
+        if(GetPerson.VerifyPerson(username, password) == true)
+        {               
+            NavManager.NavigateTo("LoginTest", true);
+        }
+        else
+        {           
+            NavManager.NavigateTo("Error");  
+        }              
     }
 
 }
