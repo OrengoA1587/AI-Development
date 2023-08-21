@@ -2,21 +2,16 @@
 @layout EmptyLayout
 @using DataAccessLibrary;
 @using System.Web;
-<head>
-    
+@using Microsoft.Extensions.Configuration;
+<head>    
     <title></title>
-    <link rel="stylesheet" href="css/LoginStylesheet.css" />
-     
+    <link rel="stylesheet" href="css/LoginStylesheet.css" />     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet"> 
-     
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">      
 </head>
 <body>
-     
-
-    <div class="background">
-         
+    <div class="background">         
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
@@ -30,35 +25,29 @@
         <label for="password">Password</label>
         <input @bind="password"  type="password" placeholder="Password" id="password">
 
-        <button class="glow-on-hover" type="button" @onclick="Login">Log In</button>
-         
-         <div class="social">
-             
-
+        <button class="glow-on-hover" type="button" @onclick="Login">Log In</button>         
+         <div class="social">   
             <div class="go"><a class="fab fa-google"  href="https://www.google.com">oogle</a></div>
-            <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>
-            
-        </div>
-         
-    </form>
-      
-</body>
- 
+            <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>            
+        </div>         
+    </form>      
+</body> 
 @inject HttpClient Http;
+@inject IConfiguration configuration;
 @code {
     @inject NavigationManager NavManager
     string username = "";
     string password = "";
-    GetPerson getPerson = null; 
+    private string connectionString = "";
      
     void Login()
-    {
-
-        //navigationManager.NavigateTo("/");
-
-         
-         
-        if(GetPerson.VerifyPerson(username, password) == true)
+    {        
+        IConfiguration config = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .Build();
+        connectionString = config.GetConnectionString("Default");
+        GetPerson getPerson = new GetPerson();
+        if(getPerson.VerifyPerson(username, password,connectionString) == true)
         {               
             NavManager.NavigateTo("LoginTest", true);
         }
@@ -67,5 +56,4 @@
             NavManager.NavigateTo("Error");  
         }              
     }
-
 }
