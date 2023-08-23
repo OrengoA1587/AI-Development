@@ -95,7 +95,7 @@ input {
 
 button {
     margin-top: 50px;
-    width: 100%;
+    width: 90%;
     background-color: #ffffff;
     color: #080710;
     padding: 15px 0;
@@ -110,13 +110,13 @@ button {
 
 .social {
     margin-top: 30px;
-    padding-left: 15px;
+    padding-left: 0px;
     display: flex;
     text-decoration: none;
 }
     .social .go, fab fa-google {
         padding-left: 25px;
-        padding-right: 15px;
+        padding-right: 17px;
         margin-right: 15px;
         color: #f077fd;
     }
