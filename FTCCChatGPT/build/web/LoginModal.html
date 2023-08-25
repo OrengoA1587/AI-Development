@@ -1,50 +1,40 @@
 
-    
  
+<html> 
 <head>    
     <title></title>
-     
+     <link href="css/navbar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap2/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/site.css" type="text/css"/>
-   
-    <link rel="stylesheet" href="css/LoginStylesheet.css" />   
+    <link rel="stylesheet" href="css/site.css" type="text/css"/>   
+    <link rel="stylesheet" href="css/LoginStylesheet.css" />  
+    <TITLE>Login</TITLE>    
+    <img class="image-main" src="Images/AI_Face_Background.png" alt="Pic"/>      
+</head> 
+    <body>
+        <div class="background">         
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <form action="LoginTest.html"method="post" id="login">
+            <h3 class=" heading-main"><img src="Images/fayettevilletech_logo_full.png" /></h3>
+            <h3>Student Login</h3>
 
+            <label for="username">Username</label>
+            <input   type="text"  placeholder="Username" id="username">
 
+            <label for="password">Password</label>
+            <input    type="password" placeholder="Password" id="password">
 
-
-    
-  <img class="image-main" src="Images/AI_Face_Background.png" alt="Pic"/>      
-</head>
-
-   
-<main> 
- <body>
-    <div class="background">         
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
-    <form>
-        <h3 class=" heading-main"><img src="Images/fayettevilletech_logo_full.png" /></h3>
-        <h3>Student Login</h3>
-
-        <label for="username">Username</label>
-        <input   type="text"  placeholder="Username" id="username">
-
-        <label for="password">Password</label>
-        <input    type="password" placeholder="Password" id="password">
-
-             
-         <div class="social">   
-            <div class="go"><a class="fab fa-google"  href="https://www.google.com">oogle</a></div>
-            <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>            
-        </div> 
-         <button class="glow-on-hover" type="button"  >Log In</button>     
-    </form>    
- 
-</body> 
- </main>
-     
+            <div class="social">   
+                <div class="go"><a class="fab fa-google"  href="https://www.google.com">oogle</a></div>
+                <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>            
+            </div> 
+                <button class="glow-on-hover" onclick="GenerateMessage">Login</button>
+        </form>  
+    </body>     
+</html> 
  
  

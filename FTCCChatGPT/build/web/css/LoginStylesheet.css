@@ -1,32 +1,38 @@
  
-
-body {
-    background-color: #080710;
-     
- 
+html{
+   background-color: white;
 }
-.image-main{
-   
-    position:  inherit;
-    margin-top: -100px;
-    margin-left:2500px;
-      
+body {
+    background-color:  #ffffff;
+}
+.image-main{   
+    background-color:  #ffffff;
+    position:   absolute;
+    margin-top: 0px;
+    margin-left:600px;     
+}
+.image-AI-Chat{
+    position: relative ;
+    width: 60%;
+    margin-top: 320px;
+    margin-left:900px;  
+    position: absolute;
 }
 .background {
-     width: 530px;
+    width: 530px;
     height: 770px;
     position: absolute;
     transform: translate(19%,-50%);
     left: 50%;
     top: 50%;
+    
+} 
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
 }
- 
-    .background .shape {
-        height: 200px;
-        width: 200px;
-        position: absolute;
-        border-radius: 50%;
-    }
 
 .shape:first-child {
     background: linear-gradient(#f077fd, #93fdfc );
