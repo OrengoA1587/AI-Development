@@ -18,21 +18,22 @@
             <div class="shape"></div>
             <div class="shape"></div>
         </div>
-        <form action="LoginTest.html"method="post" id="login">
+        <form action="LoginAction.jsp"method="post" id="login">
             <h3 class=" heading-main"><img src="Images/fayettevilletech_logo_full.png" /></h3>
             <h3>Student Login</h3>
 
             <label for="username">Username</label>
-            <input   type="text"  placeholder="Username" id="username">
+            <input   type="text"    name="username" id="username" placeholder="Enter Username"/>
 
             <label for="password">Password</label>
-            <input    type="password" placeholder="Password" id="password">
+            <input    type="password" name="password" id="password" placeholder="Enter Password"/>
 
             <div class="social">   
                 <div class="go"><a class="fab fa-google"  href="https://www.google.com">oogle</a></div>
                 <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>            
             </div> 
                 <button class="glow-on-hover" onclick="GenerateMessage">Login</button>
+                
         </form>  
     </body>     
 </html> 
