@@ -9,6 +9,7 @@
 body {
     background-color: #080710;
     position: relative;
+     
 
 }
 
@@ -144,8 +145,12 @@ button {
     text-decoration: none;
     color: black;
 }
- 
-.glow-on-hover:before{
+.glow-button-container {
+    position: absolute;
+    width: 50%;
+    height: 10%;
+}
+.glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #93fdfc, #f077fd, #93fdfc, #f077fd, #93fdfc, #f077fd, #93fdfc, #f077fd, #93fdfc);
     position: absolute;
@@ -160,17 +165,15 @@ button {
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
-     
-    
 }
 
 .glow-on-hover:active {
     color: #000
 }
 
-    .glow-on-hover:active:after {
-        background: transparent;
-    }
+.glow-on-hover:active:after {
+    background: transparent;
+}
 
 .glow-on-hover:hover:before {
     opacity: 1;
