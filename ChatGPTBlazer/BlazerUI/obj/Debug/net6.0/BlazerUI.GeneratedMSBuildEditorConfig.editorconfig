@@ -5,85 +5,84 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazerUI
 build_property.RootNamespace = BlazerUI
-build_property.ProjectDir = C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\BlazerUI\
+build_property.ProjectDir = C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\BlazerUI
+build_property.MSBuildProjectDirectory = C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/App.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/Counter.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/Dashboard.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/FetchData.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/Index.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/LoginModal.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/LoginModal.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5Nb2RhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/LoginTest.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/LoginTest.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5UZXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/People.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/People.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/RegistrationPage.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/RegistrationPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Shared/DashboardLayout.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Shared/DashboardLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXERhc2hib2FyZExheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Shared/EmptyLayout.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Shared/EmptyLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtcHR5TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Shared/SurveyPrompt.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/_Imports.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Shared/MainLayout.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3ynehbdijx
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Shared/NavMenu.razor]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0rj0gqzlnb
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/Error.cshtml]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/_Host.cshtml]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/C-Sharp-Programs/AI-Development/ChatGPTBlazer/BlazerUI/Pages/_Layout.cshtml]
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
