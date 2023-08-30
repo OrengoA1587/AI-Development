@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\Images\\fayettevilletech_logo_full.png"
     },
     {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\DashboardStylesheet.css",
+      "PackagePath": "staticwebassets\\css\\DashboardStylesheet.css"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\LoginStylesheet.css",
+      "PackagePath": "staticwebassets\\css\\LoginStylesheet.css"
+    },
+    {
       "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\boostrap2\\Navigation-with-Button.css",
       "PackagePath": "staticwebassets\\css\\boostrap2\\Navigation-with-Button.css"
     },

@@ -1,0 +1,50 @@
+﻿@page "/RegistrationPage"
+@layout EmptyLayout
+
+<input style="width:200px" @bind = "choosenPass" />
+<span class="text-danger" style="width:200px">@password</span>
+
+<p>@password</p>
+<button @onclick = "GetPassword"></button>
+<h3>RegistrationPage</h3>
+@using System.Security.Cryptography;
+@using System.Collections;
+@using System.Text.Encodings;
+@using System.Text;
+
+@code {
+    SHA512Managed algo512 = new SHA512Managed();
+    string choosenPass = "";
+    string password = "";
+    private void GetPassword()
+    {
+        password = Convert.ToBase64String(GetEncryptedPassword(choosenPass));
+        password = Convert.ToBase64String(GetEncryptedPassword(password));
+         
+    }
+
+    private byte[] GetEncryptedPassword(string text)
+    {
+
+        var convText = Encoding.ASCII.GetBytes(text);
+        var salt = Encoding.ASCII.GetBytes("H@ck3r$Rul3");
+
+        byte[] Encryptpass = new byte[convText.Length + salt.Length];
+
+        for (int i = 0; i < convText.Length; i++)
+        {
+            Encryptpass[i] = convText[i];
+        }
+        for (int i = 0; i < salt.Length; i++)
+        {
+            Encryptpass[i + convText.Length] = salt[i];
+        }
+
+
+
+        return algo512.ComputeHash(Encryptpass);
+    }
+
+
+
+}
