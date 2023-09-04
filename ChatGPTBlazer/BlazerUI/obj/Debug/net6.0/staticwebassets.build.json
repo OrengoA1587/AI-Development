@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PhUiS0NTxpQvmasEkNupDyzaH+FH1sCY0G5dWt67RV4=",
+  "Hash": "qhJNEN++bC8j3oHBg+taLVAoOSNgooWkfBXQK0383Kk=",
   "Source": "BlazerUI",
   "BasePath": "_content/BlazerUI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazerUI\\wwwroot",
       "Source": "BlazerUI",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazerUI.styles.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazerUI.styles.css",
       "SourceId": "BlazerUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "BlazerUI.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazerUI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazerUI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazerUI.bundle.scp.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazerUI.bundle.scp.css",
       "SourceId": "BlazerUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "BlazerUI.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,30 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazerUI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazerUI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\boostrap2\\bootstrap.min.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\BaseLayout.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "css/BaseLayout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\BaseLayout.css"
+    },
+    {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\boostrap2\\bootstrap.min.css",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/boostrap2/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\boostrap2\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\boostrap2\\Navigation-with-Button.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\boostrap2\\Navigation-with-Button.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/boostrap2/Navigation-with-Button.css",
       "AssetKind": "All",
@@ -85,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\boostrap2\\Navigation-with-Button.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -119,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -136,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\bs-init.js",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\bs-init.js",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/bootstrap/js/bs-init.js",
       "AssetKind": "All",
@@ -153,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\js\\bs-init.js"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\chart.min.js",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\chart.min.js",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/bootstrap/js/chart.min.js",
       "AssetKind": "All",
@@ -170,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\js\\chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\jquery.min.js",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\jquery.min.js",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/bootstrap/js/jquery.min.js",
       "AssetKind": "All",
@@ -187,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\js\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\loginAction.js",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\loginAction.js",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/bootstrap/js/loginAction.js",
       "AssetKind": "All",
@@ -204,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\js\\loginAction.js"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\theme.js",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\theme.js",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/bootstrap/js/theme.js",
       "AssetKind": "All",
@@ -221,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\js\\theme.js"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\button-style.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\button-style.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/button-style.css",
       "AssetKind": "All",
@@ -238,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\button-style.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\button-style2.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\button-style2.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/button-style2.css",
       "AssetKind": "All",
@@ -255,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\button-style2.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\calculatorPage.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\calculatorPage.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/calculatorPage.css",
       "AssetKind": "All",
@@ -272,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\calculatorPage.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\DashboardStylesheet.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\DashboardStylesheet.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/DashboardStylesheet.css",
       "AssetKind": "All",
@@ -289,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\DashboardStylesheet.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\indexPage.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\indexPage.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/indexPage.css",
       "AssetKind": "All",
@@ -306,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\css\\indexPage.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\LoginStylesheet.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\LoginStylesheet.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/LoginStylesheet.css",
       "AssetKind": "All",
@@ -323,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\LoginStylesheet.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\navbar.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\navbar.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/navbar.css",
       "AssetKind": "All",
@@ -340,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -357,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -374,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -391,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -408,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -425,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -442,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -459,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -476,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -493,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\RegistrationStyleSheet.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\RegistrationStyleSheet.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/RegistrationStyleSheet.css",
       "AssetKind": "All",
@@ -510,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\css\\RegistrationStyleSheet.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\site.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -527,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\styles.css",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -544,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\favicon.ico",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -561,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\background_1.jpg",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\background_1.jpg",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "Images/background_1.jpg",
       "AssetKind": "All",
@@ -578,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\background_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fayettevilletech_logo_full.png",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fayettevilletech_logo_full.png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "Images/fayettevilletech_logo_full.png",
       "AssetKind": "All",
@@ -595,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\fayettevilletech_logo_full.png"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC_AI_Head.png",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC_AI_Head.png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "Images/FTCC_AI_Head.png",
       "AssetKind": "All",
@@ -612,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\FTCC_AI_Head.png"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC_Logo_Head.png",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC_Logo_Head.png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "Images/FTCC_Logo_Head.png",
       "AssetKind": "All",
@@ -629,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\FTCC_Logo_Head.png"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC2.png",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC2.png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "Images/FTCC2.png",
       "AssetKind": "All",
@@ -646,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\FTCC2.png"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\TrojanLogo.png",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\TrojanLogo.png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "Images/TrojanLogo.png",
       "AssetKind": "All",
@@ -663,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\TrojanLogo.png"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\TrojanLogo2.png",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\TrojanLogo2.png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "Images/TrojanLogo2.png",
       "AssetKind": "All",
@@ -680,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\TrojanLogo2.png"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\Untitled design(108).png",
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\Untitled design(108).png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\AI-Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
       "BasePath": "_content/BlazerUI",
       "RelativePath": "Images/Untitled design(108).png",
       "AssetKind": "All",

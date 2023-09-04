@@ -132,7 +132,7 @@
             messages.Add(topic);
             var jsonContent = new
             {
-                prompt = $"{topic}",
+                prompt = "Teach me how to do" + $"{topic}",
                 model = "text-davinci-003",
                 temperature = temp,
                 max_tokens = 1000           
