@@ -18,11 +18,11 @@ ul {
 }
 .background {
     width:750px;
-    height: 300px;
+    height: 750px;
     position: absolute;
     transform: translate(19%,-50%);
-    left: 70%;
-    top: 0%;
+    left: 65%;
+    top:55%;
 }
 
     .background .shape {
@@ -60,7 +60,7 @@ form {
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
-    margin-top: -250px;
+    margin-top: 200px;
 }
 
     form * {

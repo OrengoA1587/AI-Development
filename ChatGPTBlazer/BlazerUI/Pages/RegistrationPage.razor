@@ -15,10 +15,10 @@
 </div>
 <div class="glow-button-container">
     
-    <form>
+    <form class="glow-on-hover">
          
         <h3 class=" heading-main"><img src="Images/fayettevilletech_logo_full.png" /></h3>
-        <h3>Student Registration</h3>
+        <h3 style="text-align:center;font-size:2rem;">Student Registration</h3>
 
         <div class="form-section">
             <input @bind="fname" type="text" placeholder="First Name" id="fname">             
@@ -64,11 +64,12 @@
          
         <input @bind="password" type="text" placeholder="Password" id="password">
         <span class="text-danger">@passwordErrorMessage</span>
-        <input @bind="reenterPassword" type="password" placeholder="Re-Enter Password" id="password2">
+        <input @bind="reenterPassword" type="text" placeholder="Re-Enter Password" id="password2">
          
         @*<button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>*@
-        <button class="glow-on-hover" type="button" @onclick="GetPassword">Submit</button>
+        <button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>
     </form>
+     
 </div>
  
 @using System.Security.Cryptography;
@@ -94,9 +95,10 @@
     string lname = "";
     string address = "";
     string email = "";
-    
+
     void SubmitReg()
-    {        
+    {
+        GetPassword();
         IConfiguration config = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
             .Build();
@@ -113,8 +115,8 @@
     }
     private void GetPassword()
     {
-        password = Convert.ToBase64String(GetEncryptedPassword(choosenPass));
-        password = Convert.ToBase64String(GetEncryptedPassword(password));
+        reenterPassword = Convert.ToBase64String(GetEncryptedPassword(password));
+        reenterPassword = Convert.ToBase64String(GetEncryptedPassword(reenterPassword));
          
     }
 
