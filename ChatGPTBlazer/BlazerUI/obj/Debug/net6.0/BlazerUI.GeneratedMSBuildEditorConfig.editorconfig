@@ -47,6 +47,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVvcGxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/PersonAddedPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uQWRkZWRQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/RegistrationPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cmF0aW9uUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

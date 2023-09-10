@@ -62,9 +62,9 @@
             <span class="text-danger">@emailAddressErrorMessage</span>
         </div>
          
-        <input @bind="password" type="text" placeholder="Password" id="password">
+        <input @bind="password" type="password" placeholder="" id="password">
         <span class="text-danger">@passwordErrorMessage</span>
-        <input @bind="reenterPassword" type="text" placeholder="Re-Enter Password" id="password2">
+        <input @bind="password2" type="password" placeholder="" id="password2">
          
         @*<button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>*@
         <button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>
@@ -80,44 +80,52 @@
 @using DataAccessLibrary; 
 @using System.Web;
 @using Microsoft.Extensions.Configuration;
+@using System.Data;
 @code {
+    @inject NavigationManager NavManager
     SHA512Managed algo512 = new SHA512Managed();
     string choosenPass = "";
     string password = "";
+    string password2 = "";
     string reenterPassword = "";
+    string dob = "12122012";
     private string fNameErrorMessage;
     private string lNameErrorMessage;
     private string passwordErrorMessage;
     private string addressErrorMessage;
     private string emailAddressErrorMessage;
     private string connectionString = "";
+    string plainText = "";
     string fname = "";
     string lname = "";
     string address = "";
     string email = "";
-
+    
     void SubmitReg()
     {
-        GetPassword();
+         
+        plainText = GetPassword(password);
         IConfiguration config = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
             .Build();
         connectionString = config.GetConnectionString("Default");
-        GetPerson getPerson = new GetPerson();
-        //if(getPerson.VerifyPerson(username, password,connectionString) == true)
-        //{               
-        //    NavManager.NavigateTo("LoginTest", true);
-        //}
-        //else
-        //{
-        //    ValidateForm();
-        //}              
+        InsertPerson insertPerson = new InsertPerson();
+
+        //insertPerson.InsertPersonIntoDatabase(fname, lname, address, email, plainText, dob, ref connectionString);
+        if (insertPerson.InsertPersonIntoDatabase(fname, lname, address, email, plainText, dob, ref connectionString) == true)
+        {              
+            NavManager.NavigateTo("PersonAddedPage.razor", true);
+        }
+        else
+        {
+            ValidateForm();
+        }              
     }
-    private void GetPassword()
+    private string GetPassword(string password)
     {
         reenterPassword = Convert.ToBase64String(GetEncryptedPassword(password));
         reenterPassword = Convert.ToBase64String(GetEncryptedPassword(reenterPassword));
-         
+        return reenterPassword;
     }
 
     private byte[] GetEncryptedPassword(string text)
@@ -138,7 +146,51 @@
         }
         return algo512.ComputeHash(Encryptpass);
     }
+    private void ValidateForm()
+    {
+        if (string.IsNullOrWhiteSpace(fname))
+        {
+            fNameErrorMessage = "First name is required.";
+        }
+        else
+        {
+            fNameErrorMessage = null;
+        }
 
+        if (string.IsNullOrWhiteSpace(lname))
+        {
+            lNameErrorMessage = "Last name is required.";
+        }
+        else
+        {
+            lNameErrorMessage = null;
+        }
+        if (string.IsNullOrWhiteSpace(email))
+        {
+            emailAddressErrorMessage = "email is required.";
+        }
+        else
+        {
+            emailAddressErrorMessage = null;
+        }
+        if (string.IsNullOrWhiteSpace(address))
+        {
+            addressErrorMessage = "address is required.";
+        }
+        else
+        {
+            addressErrorMessage = null;
+        }
+        if (string.IsNullOrWhiteSpace(password))
+        {
+            passwordErrorMessage = "Password is required.";
+        }
 
+        else
+        {
+            passwordErrorMessage = null;
+        }
+    }
+     
 
 }

@@ -155,7 +155,6 @@ C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\b
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\System.Composition.Runtime.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\System.Composition.TypedParts.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
@@ -577,3 +576,23 @@ C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPT
 C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\DataAccessLibrary.pdb
 C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\DataAccessLibrary.dll.config
 C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\BlazerUI\obj\Debug\net6.0\BlazerUI.csproj.ResolveComReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.SqlServer.Types.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\pt-BR\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\runtimes\win-x64\native\SqlServerSpatial160.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\runtimes\win-x86\native\SqlServerSpatial160.dll
