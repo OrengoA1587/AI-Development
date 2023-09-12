@@ -1,0 +1,6 @@
+﻿SET IDENTITY_INSERT [dbo].[PeopleTest] ON
+INSERT INTO [dbo].[PeopleTest] ([Id], [FirstName], [LastName], [Address], [DateOfBirth], [EmailAddress], [Username], [Password]) VALUES (3, N'aa', N'aa', N'aa', N'12122012', N'aa', N'aa', N'E1VEFgLI9znvFqcKcX6L4DiuWhuTlULZnq11YS8uTPeKdp5qh2IMeTodZE7Zh4be0UpjEfB0EXjaM11QwpXRjg==')
+INSERT INTO [dbo].[PeopleTest] ([Id], [FirstName], [LastName], [Address], [DateOfBirth], [EmailAddress], [Username], [Password]) VALUES (4, N'Anthony', N'O', N'123 Apples Lane', N'12122012', N'AO@gmod.com', N'AO@gmod.com', N'w/Dg2GQLbtofRs45k0JyN1OG7gSoPrGQF5lPVvV7FzO7fzx7MoJIEvwJzpshIS/iLhuCJlqUwbODE27RXpMAjQ==')
+INSERT INTO [dbo].[PeopleTest] ([Id], [FirstName], [LastName], [Address], [DateOfBirth], [EmailAddress], [Username], [Password]) VALUES (5, N'John', N'Good', N'123 Grapes Way', N'12122012', N'johnG@gmail.com', N'johnG@gmail.com', N'w/Dg2GQLbtofRs45k0JyN1OG7gSoPrGQF5lPVvV7FzO7fzx7MoJIEvwJzpshIS/iLhuCJlqUwbODE27RXpMAjQ==')
+INSERT INTO [dbo].[PeopleTest] ([Id], [FirstName], [LastName], [Address], [DateOfBirth], [EmailAddress], [Username], [Password]) VALUES (6, N'John', N'Doe', N'Nowhere land dr', N'12122012', N'johndoe@gmail.com', N'johndoe@gmail.com', N'w/Dg2GQLbtofRs45k0JyN1OG7gSoPrGQF5lPVvV7FzO7fzx7MoJIEvwJzpshIS/iLhuCJlqUwbODE27RXpMAjQ==')
+SET IDENTITY_INSERT [dbo].[PeopleTest] OFF

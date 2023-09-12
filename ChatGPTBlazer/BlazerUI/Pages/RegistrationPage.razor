@@ -61,11 +61,10 @@
              
             <span class="text-danger">@emailAddressErrorMessage</span>
         </div>
-         
-        <input @bind="password" type="password" placeholder="" id="password">
-        <span class="text-danger">@passwordErrorMessage</span>
-        <input @bind="password2" type="password" placeholder="" id="password2">
-         
+        <input @bind="password" type="password" name="Password" autocomplete="off" placeholder="Password"/>
+
+
+        <input @bind="password2" type="password" name="Password" autocomplete="off" placeholder="Password" />
         @*<button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>*@
         <button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>
     </form>
@@ -87,7 +86,7 @@
     string choosenPass = "";
     string password = "";
     string password2 = "";
-    string reenterPassword = "";
+    //string reenterPassword = "";
     string dob = "12122012";
     private string fNameErrorMessage;
     private string lNameErrorMessage;
@@ -95,7 +94,7 @@
     private string addressErrorMessage;
     private string emailAddressErrorMessage;
     private string connectionString = "";
-    string plainText = "";
+    
     string fname = "";
     string lname = "";
     string address = "";
@@ -103,8 +102,8 @@
     
     void SubmitReg()
     {
-         
-        plainText = GetPassword(password);
+      
+        //string plainText = GetPassword(password);
         IConfiguration config = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
             .Build();
@@ -112,9 +111,9 @@
         InsertPerson insertPerson = new InsertPerson();
 
         //insertPerson.InsertPersonIntoDatabase(fname, lname, address, email, plainText, dob, ref connectionString);
-        if (insertPerson.InsertPersonIntoDatabase(fname, lname, address, email, plainText, dob, ref connectionString) == true)
+        if (insertPerson.InsertPersonIntoDatabase(fname, lname, address, email, password, dob, ref connectionString) == true)
         {              
-            NavManager.NavigateTo("PersonAddedPage.razor", true);
+            NavManager.NavigateTo("PersonAddedPage", true);
         }
         else
         {
@@ -123,7 +122,8 @@
     }
     private string GetPassword(string password)
     {
-        reenterPassword = Convert.ToBase64String(GetEncryptedPassword(password));
+
+        string reenterPassword = Convert.ToBase64String(GetEncryptedPassword(password));
         reenterPassword = Convert.ToBase64String(GetEncryptedPassword(reenterPassword));
         return reenterPassword;
     }
