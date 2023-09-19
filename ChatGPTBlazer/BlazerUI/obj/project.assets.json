@@ -12328,11 +12328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oreng\\OneDrive\\Desktop\\AIBackup\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
+      "projectUniqueName": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
       "projectName": "BlazerUI",
-      "projectPath": "C:\\Users\\oreng\\OneDrive\\Desktop\\AIBackup\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
+      "projectPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
       "packagesPath": "C:\\Users\\oreng\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oreng\\OneDrive\\Desktop\\AIBackup\\ChatGPTBlazer\\BlazerUI\\obj\\",
+      "outputPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -12354,8 +12354,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\oreng\\OneDrive\\Desktop\\AIBackup\\ChatGPTBlazer\\DataAccessLibrary\\DataAccessLibrary.csproj": {
-              "projectPath": "C:\\Users\\oreng\\OneDrive\\Desktop\\AIBackup\\ChatGPTBlazer\\DataAccessLibrary\\DataAccessLibrary.csproj"
+            "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+              "projectPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\DataAccessLibrary\\DataAccessLibrary.csproj"
             }
           }
         }

@@ -908,3 +908,15 @@ C:\Users\oreng\OneDrive\Desktop\AIBackup\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0
 C:\Users\oreng\OneDrive\Desktop\AIBackup\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Http.Polly.dll
 C:\Users\oreng\OneDrive\Desktop\AIBackup\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Polly.dll
 C:\Users\oreng\OneDrive\Desktop\AIBackup\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Polly.Extensions.Http.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Blazored.SessionStorage.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Extensions.Http.Polly.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Polly.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Polly.Extensions.Http.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\System.IO.Pipelines.dll

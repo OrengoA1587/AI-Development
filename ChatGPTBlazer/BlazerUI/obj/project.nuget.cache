@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5dwwDwEqNRy0vCVsZv4BV4oG5IdVeOKnpDcK2cc5xIbhqNUt8do1CKfGI0UiHk3V5ttbMr25JxIRgLHf46cLVg==",
+  "dgSpecHash": "uyHT9vor47iSsHQaA3PhiIQqAU8WlSrNv7HzCK7fa60NkR+kX+mzyc9k+xKzc5Mj+29eC5uS4KDds5YjttIiIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oreng\\OneDrive\\Desktop\\AIBackup\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
+  "projectFilePath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\BlazerUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oreng\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\oreng\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vSFUOJaIzi9Hv1/yMq4VIy2m79RpFKVNw3GAEqz09mpl4zj6T0W2nCmJIRcbSaCeThwoLkRDn0PixdG8qmbskg==",
+  "dgSpecHash": "5SSb1s4CncphYk0TCEGX87PaSw/zx9z5NKfDK5MpQ9XIParYm6I2VisqEdNPvBkjcCwineOFYpxxsUCPJcbbMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oreng\\OneDrive\\Desktop\\AIBackup\\ChatGPTBlazer\\DataAccessLibrary\\DataAccessLibrary.csproj",
+  "projectFilePath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\DataAccessLibrary\\DataAccessLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oreng\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\oreng\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
