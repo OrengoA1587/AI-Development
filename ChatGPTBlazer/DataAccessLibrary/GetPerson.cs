@@ -1,26 +1,22 @@
-﻿using Microsoft.Data.SqlClient;
-using System.Data;
-using System;
-using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Protocols;
-using System.IO;
-using System.Text;
-using static System.Net.Mime.MediaTypeNames;
+﻿using Microsoft.Data.SqlClient; 
+using System.Text; 
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Http; 
 namespace DataAccessLibrary
 {
     public class GetPerson  
-    {        
-
+    {
+         
         public bool VerifyPerson(string username,string plaintext, string connectionString)
-        {
-
+        {          
             string password = Convert.ToBase64String(GetEncryptedPassword(plaintext));
             SqlConnection sqlcon = new SqlConnection();
             string statement = "SELECT * FROM PeopleTest where Username = @username AND Password = @password";
             sqlcon.ConnectionString = connectionString;
             try
             {
+                
+                 
                 using (SqlCommand sqlcom = new SqlCommand(statement, sqlcon))
                 {
                     sqlcon.Open();
@@ -29,9 +25,12 @@ namespace DataAccessLibrary
                     SqlDataReader reader = sqlcom.ExecuteReader();
                     if (reader.Read())
                     {
+                         
+
                         string userName = reader.GetValue(0).ToString();
                         string passwordCheck = reader.GetValue(1).ToString();
                         sqlcon.Close();
+                         
                         return true;
                     }
                     else

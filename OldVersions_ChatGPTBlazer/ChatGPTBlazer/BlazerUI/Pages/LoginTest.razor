@@ -1,0 +1,210 @@
+﻿@page "/logintest"
+@layout DashboardLayout
+@using DataAccessLibrary
+
+ <head>
+     
+    <title> </title>
+    <link rel="stylesheet" href="css/DashboardStylesheet.css" />
+    <link rel="stylesheet" href="css/LoginStylesheet.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/button-style.css" rel="stylesheet" />
+    <link href="css/navbar.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap2/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">   
+</head> 
+
+<div class="dashboard-background">
+     <div class="container-fluid">
+        <div class="container-box1">
+            <input class="input-textbox" @bind="topic" placeholder="Enter Message --> "></input>
+        </div>
+        <br>
+        <div class="container-box1">
+            <input class="input-textbox textbox-temp" @bind="getTemp" placeholder="Temp"></input>
+        </div>
+    </div>
+    <p class="chatbot-output-box" style="text-align:justify;display:inline-block;background-color: @backgroundColor;">
+        <div>
+            <img src="Images/FTCC_AI_Head.png" alt="FTCC Trojan Logo">
+
+        </div>
+        @for (int i = 0; i < messages.Count; i++)
+        {
+            if (i % 2 == 0)
+            {
+                <div class="question" style="color:blue">@user@messages[i]</div>
+            }
+            else
+            {
+                <div class="question" style="color:red">@chatBot@messages[i]; </div>
+            }
+        }
+    </p>
+    <button class="glow-on-hover" @onclick="GenerateMessage">Ask ChatAI</button>
+    <button class="btn-hover color-2" @onclick="ClearBox">CLEAR</button>
+    <button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
+    <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
+
+
+</div>
+ 
+@*<div class="container-fluid">
+    <div class="container-box1">
+        <input class="input-textbox" @bind="topic" placeholder="Enter Message --> "></input>
+    </div>
+    <br>
+    <div class="container-box1">
+        <input class="input-textbox textbox-temp" @bind="getTemp" placeholder="Temp"></input>
+    </div>
+
+ 
+</div>
+
+<p class="chatbot-output-box" style="text-align:justify;display:inline-block;background-color: @backgroundColor;">
+    <div>
+        <img src="Images/FTCC_AI_Head.png" alt="FTCC Trojan Logo">
+
+    </div>
+    @for (int i = 0; i < messages.Count; i++)
+    {
+        if (i % 2 == 0)
+        {
+            <div class="question" style="color:blue">@user@messages[i]</div>
+        }
+        else
+        {
+            <div class="question" style="color:red">@chatBot@messages[i]; </div>
+        }
+    }
+</p>
+<button class="glow-on-hover" @onclick="GenerateMessage">Ask ChatAI</button>
+<button class="btn-hover color-2" @onclick="ClearBox">CLEAR</button>
+<button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
+<button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
+ *@
+@*<body class="dashboard-background">
+    <h1 class="dashboard-heading">AI Powered</h1>
+    <h3 class="dashboard-heading1">Welcome to FTCC Student Dashboard</h3>
+    <br />
+    <br />
+    <h3 class="dashboard-heading1">Pending Development</h3>
+     
+     
+</body>*@
+@using System.Net.Http;
+@using Newtonsoft.Json;
+@using System.Text;
+@using System.Net.Http.Headers;
+@using System;
+@using System.Configuration;
+@using System.Collections.Generic;
+@using System.Linq;
+@using System.Drawing
+@using BlazerUI.Data;
+@using OpenAI_API;
+
+@inject HttpClient Http;
+
+@code {
+    string user = "User: ";
+    string chatBot = "ChatBot: ";
+    string tempString = "";
+    string getTemp = "";
+    double temp = 0;
+    string topic = "";
+    string response = "";
+    string formattedResponse = "";
+
+    List<string> messages = new List<string>();     
+
+    private async Task GenerateMessage()
+    {
+        Http = new HttpClient(); //Create session to send HTTP request
+        var apiKey = ConfigurationManager.ConnectionStrings["APIKey"].ToString();//Get api key
+        var openAi = new OpenAIAPI(apiKey);
+        Http.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}"); //Authenticate api key
+
+        if (topic != "" && double.TryParse(getTemp, out temp))
+        {
+
+            messages.Add(topic);
+            var jsonContent = new
+            {
+                prompt = "Teach me how to do" + $"{topic}",
+                model = "text-davinci-003",
+                temperature = temp,
+                max_tokens = 1000           
+            };            
+
+            var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+            var resContext = await responseContent.Content.ReadAsStringAsync();
+            var data = JsonConvert.DeserializeObject<dynamic>(resContext);
+            messages.Add(data.choices[0].text.ToString());
+            topic = "";
+            getTemp = "";
+        }         
+        else if (topic == "")
+        {
+
+            topic = "Tell me what an invalid response is?";
+            messages.Add(topic);
+            var jsonContent = new
+            {
+                prompt = $"{topic}",
+                model = "text-davinci-003",
+                temperature = 1,
+                max_tokens = 1000
+            };
+            var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(Newtonsoft.Json.JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
+            var resContext = await responseContent.Content.ReadAsStringAsync();
+
+            var data = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(resContext);
+            messages.Add(string.Concat(data.choices[0].text.ToString()));            
+            topic = "";
+        }
+        else
+        {
+            messages.Add("Invalid Input! Make sure the Temperature is set to .0 - 1. Refer to temperature settings for OpenAI.");
+        }
+        StateHasChanged();
+    }
+    private async Task ClearBox()
+    {
+        topic = "";
+        getTemp = "";
+        messages.Clear();
+        StateHasChanged();
+    }
+    private string backgroundColor = "white";
+
+    private void ChangeBackgroundColor()
+    {
+        if (backgroundColor == "white")
+        {
+            backgroundColor = "black";
+        }
+        else
+        {
+            backgroundColor = "white";
+        }
+    }
+    private void ChangeBackgroundColorRandom()
+    {
+        Color randomColor = GetRandomColor();
+        backgroundColor = ColorToHex(randomColor);
+    }
+
+    private Color GetRandomColor()
+    {
+        Random random = new Random();
+        return Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
+    }
+
+    private string ColorToHex(Color color)
+    {
+        return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
+    } 
+    }

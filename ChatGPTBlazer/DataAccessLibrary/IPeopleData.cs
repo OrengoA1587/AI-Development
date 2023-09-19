@@ -1,6 +1,4 @@
-﻿using DataAccessLibrary.Modals;
-
-namespace DataAccessLibrary
+﻿namespace DataAccessLibrary
 {
     public interface IPeopleData
     {

@@ -1,0 +1,196 @@
+﻿@page "/RegistrationPage"
+@layout BaseLayout
+<head>
+
+    <link rel="stylesheet" href="css/RegistrationStyleSheet.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+
+ 
+<div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+<div class="glow-button-container">
+    
+    <form class="glow-on-hover">
+         
+        <h3 class=" heading-main"><img src="Images/fayettevilletech_logo_full.png" /></h3>
+        <h3 style="text-align:center;font-size:2rem;">Student Registration</h3>
+
+        <div class="form-section">
+            <input @bind="fname" type="text" placeholder="First Name" id="fname">             
+            <span class="text-danger">@fNameErrorMessage</span>
+        </div>
+        <div class="form-section">
+            <input @bind="lname" type="text" placeholder="Last Name" id="lname">
+             
+            <span class="text-danger">@lNameErrorMessage</span>
+        </div>
+        <div class="form-section">
+            <input @bind="address" type="text" placeholder="Address" id="address">
+             
+            <span class="text-danger">@addressErrorMessage</span>
+        </div>
+        @*<div class="row">
+            <div class="col-md-6 mb-4">
+
+                <select class="select">
+                    <option value="1">State</option>
+                    <option value="2">Option 1</option>
+                    <option value="3">Option 2</option>
+                    <option value="4">Option 3</option>
+                </select>
+
+            </div>
+            <div class="col-md-6 mb-4">
+
+                <select class="select">
+                    <option value="1">City</option>
+                    <option value="2">Option 1</option>
+                    <option value="3">Option 2</option>
+                    <option value="4">Option 3</option>
+                </select>
+
+            </div>
+        </div>*@
+        <div class="form-section">
+            <input @bind="email" type="text" placeholder="Email" id="email">
+             
+            <span class="text-danger">@emailAddressErrorMessage</span>
+        </div>
+        <input @bind="password" type="password" name="Password" autocomplete="off" placeholder="Password"/>
+
+
+        <input @bind="password2" type="password" name="Password" autocomplete="off" placeholder="Password" />
+        @*<button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>*@
+        <button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>
+    </form>
+     
+</div>
+ 
+@using System.Security.Cryptography;
+@using System.Collections;
+@using System.Text.Encodings;
+@using System.Text;
+@using System.Data.SqlClient;
+@using DataAccessLibrary; 
+@using System.Web;
+@using Microsoft.Extensions.Configuration;
+@using System.Data;
+@code {
+    @inject NavigationManager NavManager
+    SHA512Managed algo512 = new SHA512Managed();
+    string choosenPass = "";
+    string password = "";
+    string password2 = "";
+    //string reenterPassword = "";
+    string dob = "12122012";
+    private string fNameErrorMessage;
+    private string lNameErrorMessage;
+    private string passwordErrorMessage;
+    private string addressErrorMessage;
+    private string emailAddressErrorMessage;
+    private string connectionString = "";
+    
+    string fname = "";
+    string lname = "";
+    string address = "";
+    string email = "";
+    
+    void SubmitReg()
+    {
+      
+        //string plainText = GetPassword(password);
+        IConfiguration config = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .Build();
+        connectionString = config.GetConnectionString("Default");
+        InsertPerson insertPerson = new InsertPerson();
+
+        //insertPerson.InsertPersonIntoDatabase(fname, lname, address, email, plainText, dob, ref connectionString);
+        if (insertPerson.InsertPersonIntoDatabase(fname, lname, address, email, password, dob, ref connectionString) == true)
+        {              
+            NavManager.NavigateTo("PersonAddedPage", true);
+        }
+        else
+        {
+            ValidateForm();
+        }              
+    }
+    private string GetPassword(string password)
+    {
+
+        string reenterPassword = Convert.ToBase64String(GetEncryptedPassword(password));
+        reenterPassword = Convert.ToBase64String(GetEncryptedPassword(reenterPassword));
+        return reenterPassword;
+    }
+
+    private byte[] GetEncryptedPassword(string text)
+    {
+        
+        var convText = Encoding.ASCII.GetBytes(text);
+        var salt = Encoding.ASCII.GetBytes("H@ck3r$Rul3");
+
+        byte[] Encryptpass = new byte[convText.Length + salt.Length];
+
+        for (int i = 0; i < convText.Length; i++)
+        {
+            Encryptpass[i] = convText[i];
+        }
+        for (int i = 0; i < salt.Length; i++)
+        {
+            Encryptpass[i + convText.Length] = salt[i];
+        }
+        return algo512.ComputeHash(Encryptpass);
+    }
+    private void ValidateForm()
+    {
+        if (string.IsNullOrWhiteSpace(fname))
+        {
+            fNameErrorMessage = "First name is required.";
+        }
+        else
+        {
+            fNameErrorMessage = null;
+        }
+
+        if (string.IsNullOrWhiteSpace(lname))
+        {
+            lNameErrorMessage = "Last name is required.";
+        }
+        else
+        {
+            lNameErrorMessage = null;
+        }
+        if (string.IsNullOrWhiteSpace(email))
+        {
+            emailAddressErrorMessage = "email is required.";
+        }
+        else
+        {
+            emailAddressErrorMessage = null;
+        }
+        if (string.IsNullOrWhiteSpace(address))
+        {
+            addressErrorMessage = "address is required.";
+        }
+        else
+        {
+            addressErrorMessage = null;
+        }
+        if (string.IsNullOrWhiteSpace(password))
+        {
+            passwordErrorMessage = "Password is required.";
+        }
+
+        else
+        {
+            passwordErrorMessage = null;
+        }
+    }
+     
+
+}

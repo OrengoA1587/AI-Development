@@ -1,0 +1,21 @@
+﻿
+.dashboard-background {
+    background: linear-gradient(#f077fd, #93fdfc );
+}
+h1, .dashboard-heading {
+    
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+     
+}
+h3, .dashboard-heading1 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+}
+   

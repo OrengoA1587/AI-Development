@@ -6,6 +6,7 @@
     background-color: Black;
     font-family: Arial, sans-serif;
     font-size: 15px;
+    border-radius: 3px;
 }
 
 .nav-link {
@@ -16,12 +17,18 @@
     text-align: center;
     line-height: 55px;
     text-decoration: none;
+    border-radius: 3px;
 }
-
-#logo {
+    .nav-link:hover {
+        background: linear-gradient(45deg, #93fdfc, #f077fd);
+        color:black;
+    }
+#logo:hover {
     width: 120px;
-    background-color: RoyalBlue;
+    background: linear-gradient(45deg, #93fdfc, #f077fd);
     font-weight: bold;
+    color:black;
+    border-radius: 3px;
 }
 
 #about {

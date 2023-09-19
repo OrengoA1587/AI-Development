@@ -1,0 +1,28 @@
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\App.config
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.dll.config
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.deps.json
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\refint\DataAccessLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\ref\DataAccessLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\App.config
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.dll.config
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.deps.json
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.AssemblyInfo.cs
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\refint\DataAccessLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\ref\DataAccessLibrary.dll

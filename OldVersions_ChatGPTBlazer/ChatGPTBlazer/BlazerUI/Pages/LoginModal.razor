@@ -1,0 +1,102 @@
+﻿@page "/loginmodal"
+@layout BaseLayout
+@using DataAccessLibrary;
+@using System.Web;
+@using Microsoft.Extensions.Configuration;
+@using BlazerUI.Data 
+<head>    
+    <title></title>
+    <link rel="stylesheet" href="css/LoginStylesheet.css" />     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">      
+</head>
+<body>
+    <div class="background">         
+        @* <div class="shape"></div>
+        <div class="shape"></div> *@
+
+    </div>
+    <div class="glow-button-container">
+    <form>
+        <h3 class=" heading-main"><img src="Images/fayettevilletech_logo_full.png" /></h3>
+        <h3>Student Login</h3>
+
+        <label for="username">Username</label>
+        <input @bind = "username" type="text"  placeholder="Username" id="username">
+            <span class="text-danger">@usernameErrorMessage</span>
+        <label for="password">Password</label>
+        <input @bind="password"  type="password" placeholder="Password" id="password">
+            <span class="text-danger">@passwordErrorMessage</span>
+          <div class="social">   
+            <div class="go"><a class="fab fa-google"  href="https://www.google.com">oogle</a></div>
+            <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>            
+        </div>
+            <button class="glow-on-hover" type="button" @onclick="Login">Log In</button>
+    </form>      
+    </div>
+</body> 
+@using Microsoft.AspNetCore.Http
+@inject HttpClient Http;
+@inject IConfiguration configuration;
+@inject Blazored.SessionStorage.ISessionStorageService session
+
+@code {
+    @inject NavigationManager NavManager
+    string username = "";
+    string password = "";
+    private string connectionString = "";
+    private string usernameErrorMessage;
+    private string passwordErrorMessage;
+    private string sessionData;
+    PersonModal person = new PersonModal(); 
+    void Login()
+    {        
+        IConfiguration config = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+            .Build();
+        connectionString = config.GetConnectionString("Default");
+        GetPerson getPerson = new GetPerson();
+        if(getPerson.VerifyPerson(username, password,connectionString) == true)
+        {
+            SetSessionUser(username);
+            NavManager.NavigateTo("LoginTest", true);
+        }
+        else
+        {
+            NavManager.NavigateTo("Error", true);
+            
+        }              
+    }
+    private void ValidateForm()
+    {
+        if (string.IsNullOrWhiteSpace(username))
+        {
+            usernameErrorMessage = "Username is required.";
+        }
+        else
+        {
+            usernameErrorMessage = null;
+        }
+
+        if (string.IsNullOrWhiteSpace(password))
+        {
+            passwordErrorMessage = "Password is required.";
+        }
+         
+        else
+        {
+            passwordErrorMessage = null;
+        }
+    }
+    public void SetSessionUser(string username)
+    {
+        var user = new UserInfo();
+        user.UserName = username;
+        session.SetItemAsync("SessionUser", user);
+
+        
+    }
+
+}
+}

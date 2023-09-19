@@ -1,7 +1,10 @@
 ﻿@page "/logintest"
 @layout DashboardLayout
-
-<head>
+@inject Blazored.SessionStorage.ISessionStorageService session
+@inject Microsoft.AspNetCore.Components.NavigationManager NavigationManager 
+@using DataAccessLibrary
+@using BlazerUI.Data
+ <head>
      
     <title> </title>
     <link rel="stylesheet" href="css/DashboardStylesheet.css" />
@@ -15,84 +18,58 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">   
 </head> 
 
+
 <div class="dashboard-background">
-    <div class="container-fluid">
-        <div class="container-box1">
-            <input class="input-textbox" @bind="topic" placeholder="Enter Message --> "></input>
+        <div class="container-fluid">
+            <div class="container-box1">
+                <input class="input-textbox" @bind="topic" placeholder="Enter Message --> "></input>
+            </div>
+            <br>
+            <div class="container-box1">
+                <input class="input-textbox textbox-temp" @bind="getTemp" placeholder="Temp"></input>
+            </div>
         </div>
-        <br>
-        <div class="container-box1">
-            <input class="input-textbox textbox-temp" @bind="getTemp" placeholder="Temp"></input>
-        </div>
-    </div>
-    <p class="chatbot-output-box" style="text-align:justify;display:inline-block;background-color: @backgroundColor;">
-        <div>
-            <img src="Images/FTCC_AI_Head.png" alt="FTCC Trojan Logo">
+        <p class="chatbot-output-box" style="text-align:justify;display:inline-block;background-color: @backgroundColor;">
+            <div>
+                <img src="Images/FTCC_AI_Head.png" alt="FTCC Trojan Logo">
 
-        </div>
-        @for (int i = 0; i < messages.Count; i++)
-        {
-            if (i % 2 == 0)
+            </div>
+            @for (int i = 0; i < messages.Count; i++)
             {
-                <div class="question" style="color:blue">@user@messages[i]</div>
+                if (i % 2 == 0)
+                {
+                    <div class="question" style="color:blue">@user@messages[i]</div>
+                }
+                else
+                {
+                    <div class="question" style="color:red">@chatBot@messages[i]; </div>
+                }
             }
-            else
-            {
-                <div class="question" style="color:red">@chatBot@messages[i]; </div>
-            }
-        }
-    </p>
-    <button class="glow-on-hover" @onclick="GenerateMessage">Ask ChatAI</button>
-    <button class="btn-hover color-2" @onclick="ClearBox">CLEAR</button>
-    <button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
-    <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
+        </p>
+        <button class="glow-on-hover" @onclick="GenerateMessage">Ask ChatAI</button>
+        <button class="btn-hover color-2" @onclick="ClearBox">CLEAR</button>
+        <button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
+        <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
 
-
-</div>
- 
-@*<div class="container-fluid">
-    <div class="container-box1">
-        <input class="input-textbox" @bind="topic" placeholder="Enter Message --> "></input>
-    </div>
-    <br>
-    <div class="container-box1">
-        <input class="input-textbox textbox-temp" @bind="getTemp" placeholder="Temp"></input>
-    </div>
-
- 
-</div>
-
-<p class="chatbot-output-box" style="text-align:justify;display:inline-block;background-color: @backgroundColor;">
-    <div>
-        <img src="Images/FTCC_AI_Head.png" alt="FTCC Trojan Logo">
 
     </div>
-    @for (int i = 0; i < messages.Count; i++)
+}
+@do
+{
+    GetSessionUser();
+    if(sessionUser != null)
     {
-        if (i % 2 == 0)
-        {
-            <div class="question" style="color:blue">@user@messages[i]</div>
-        }
-        else
-        {
-            <div class="question" style="color:red">@chatBot@messages[i]; </div>
-        }
+        
     }
-</p>
-<button class="glow-on-hover" @onclick="GenerateMessage">Ask ChatAI</button>
-<button class="btn-hover color-2" @onclick="ClearBox">CLEAR</button>
-<button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
-<button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
- *@
-@*<body class="dashboard-background">
-    <h1 class="dashboard-heading">AI Powered</h1>
-    <h3 class="dashboard-heading1">Welcome to FTCC Student Dashboard</h3>
-    <br />
-    <br />
-    <h3 class="dashboard-heading1">Pending Development</h3>
-     
-     
-</body>*@
+    else
+    {
+        NavManager.NavigateTo("/", true);
+
+    }
+
+}while (sessionUser == null);
+
+ 
 @using System.Net.Http;
 @using Newtonsoft.Json;
 @using System.Text;
@@ -104,9 +81,9 @@
 @using System.Drawing
 @using BlazerUI.Data;
 @using OpenAI_API;
-
+@inject IHttpContextAccessor httpAccessor;
 @inject HttpClient Http;
-
+@inject NavigationManager NavManager
 @code {
     string user = "User: ";
     string chatBot = "ChatBot: ";
@@ -117,8 +94,14 @@
     string response = "";
     string formattedResponse = "";
 
-    List<string> messages = new List<string>();     
-
+    List<string> messages = new List<string>();
+    string sessionUser;
+    public async Task GetSessionUser()
+    {
+        sessionUser = httpAccessor.HttpContext.Session.GetString("Username");
+        
+    }
+     
     private async Task GenerateMessage()
     {
         Http = new HttpClient(); //Create session to send HTTP request
@@ -206,4 +189,5 @@
     {
         return $"#{color.R:X2}{color.G:X2}{color.B:X2}";
     } 
+   
     }
