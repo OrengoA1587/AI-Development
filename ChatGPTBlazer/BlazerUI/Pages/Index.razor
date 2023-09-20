@@ -9,9 +9,7 @@
 <link href="css/site.css" rel="stylesheet" />
 <link href="css/button-style.css" rel="stylesheet" />
 <link href="css/navbar.css" rel="stylesheet" />
-<link rel="stylesheet" href="bootstrap2/bootstrap.min.css">
- 
-
+<link rel="stylesheet" href="bootstrap2/bootstrap.min.css"> 
 
 <PageTitle>FTCC's' AI Chatbot</PageTitle>
 @using Microsoft.AspNetCore.Http
@@ -23,14 +21,5 @@
  
 @code
 {
-    private string message = "";
-
-    protected override void OnInitialized()
-    {
-        //This code will run when the component is initialized.
-        if (message == "")
-        {
-            httpAccessor.HttpContext.Session.SetString("Username", "Initialized");
-        }
-    }
+   
 }

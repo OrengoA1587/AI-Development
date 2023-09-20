@@ -6,7 +6,7 @@
 @using Microsoft.Extensions.Configuration;
 @using BlazerUI.Data
 @using Microsoft.AspNetCore.Http;
-
+ 
 <head>    
     <title></title>
     <link rel="stylesheet" href="css/LoginStylesheet.css" />     
@@ -37,6 +37,7 @@
     </form>      
     </div>
 </body> 
+ 
 @using Microsoft.AspNetCore.Http
 @inject HttpClient Http;
 @inject IConfiguration configuration;
@@ -50,11 +51,13 @@ private string connectionString = "";
 private string usernameErrorMessage;
 private string passwordErrorMessage;
 private string sessionData;
+
 PersonModal person = new PersonModal(); 
     
      
     public void Login()
     {
+         
         IConfigurationRoot configurationRoot = new ConfigurationBuilder()
                     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                     .Build();
@@ -96,5 +99,5 @@ PersonModal person = new PersonModal();
         }
     }
     
- }
+}
  

@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 IHttpContextAccessor httpAccessor = null;
+ 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
@@ -30,7 +31,7 @@ builder.Services.AddSession(options =>
 });
 
  var app = builder.Build();
-
+     
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -51,3 +52,5 @@ app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
 
 app.Run();
+//Initialize a default session
+httpAccessor.HttpContext.Session.SetString("Username", "Initialized");
