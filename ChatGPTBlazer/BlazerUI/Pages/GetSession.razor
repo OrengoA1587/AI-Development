@@ -1,0 +1,38 @@
+﻿@page "/getsession"
+@inject Blazored.SessionStorage.ISessionStorageService session
+@using DataAccessLibrary;
+@using System.Web;
+@using Microsoft.Extensions.Configuration;
+@using BlazerUI.Data
+@using Microsoft.AspNetCore.Http;
+
+
+<h3>GetSession</h3>
+ 
+@inject Microsoft.AspNetCore.Components.NavigationManager NavigationManager
+@do{
+    GetUserSession();
+    
+} while (user != "set");
+@if(user == "set")
+{
+    NavigationManager.NavigateTo("/", true);
+}
+else
+{
+    
+}
+@inject IHttpContextAccessor httpAccessor;
+@inject Microsoft.AspNetCore.Components.NavigationManager NavigationManager
+
+@code
+{
+    string user;
+    bool loop = false;
+    public string GetUserSession()
+    {
+        httpAccessor.HttpContext.Session.SetString("Username", "Initialized");
+        NavigationManager.NavigateTo("/", true);
+        return "set"; 
+    }
+}

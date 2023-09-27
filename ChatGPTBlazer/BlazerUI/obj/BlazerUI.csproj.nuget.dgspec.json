@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[1.0.4, )"
             },
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
             "Blazored.SessionStorage": {
               "target": "Package",
               "version": "[2.4.0, )"
@@ -64,6 +68,10 @@
             "Microsoft.AspNetCore.Http.Extensions": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.1.1, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",

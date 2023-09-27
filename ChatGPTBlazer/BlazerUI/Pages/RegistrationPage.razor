@@ -9,10 +9,10 @@
 </head>
 
  
-<div class="background">
+@* <div class="background">
     <div class="shape"></div>
     <div class="shape"></div>
-</div>
+</div> *@
 <div class="glow-button-container">
     
     <form class="glow-on-hover">
@@ -21,51 +21,36 @@
         <h3 style="text-align:center;font-size:2rem;">Student Registration</h3>
 
         <div class="form-section">
-            <input @bind="fname" type="text" placeholder="First Name" id="fname">             
-            <span class="text-danger">@fNameErrorMessage</span>
-        </div>
+            <input @bind="fname" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" type="text" placeholder="First Name" id="fname">
+@*             <span class="text-danger">@fNameErrorMessage</span>
+ *@        </div>
         <div class="form-section">
-            <input @bind="lname" type="text" placeholder="Last Name" id="lname">
+            <input @bind="lname" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" type="text" placeholder="Last Name" id="lname">
              
-            <span class="text-danger">@lNameErrorMessage</span>
-        </div>
+@*             <span class="text-danger">@lNameErrorMessage</span>
+ *@        </div>
         <div class="form-section">
-            <input @bind="address" type="text" placeholder="Address" id="address">
-             
-            <span class="text-danger">@addressErrorMessage</span>
-        </div>
-        @*<div class="row">
-            <div class="col-md-6 mb-4">
+            <input @bind="dob" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date of Birth'" type="text" placeholder="Date of Birth" id="lname">
 
-                <select class="select">
-                    <option value="1">State</option>
-                    <option value="2">Option 1</option>
-                    <option value="3">Option 2</option>
-                    <option value="4">Option 3</option>
-                </select>
-
-            </div>
-            <div class="col-md-6 mb-4">
-
-                <select class="select">
-                    <option value="1">City</option>
-                    <option value="2">Option 1</option>
-                    <option value="3">Option 2</option>
-                    <option value="4">Option 3</option>
-                </select>
-
-            </div>
-        </div>*@
+@*             <span class="text-danger">@dobErrorMessage</span>
+ *@        </div>
         <div class="form-section">
-            <input @bind="email" type="text" placeholder="Email" id="email">
+            <input @bind="address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Address'" type="text" placeholder="Address" id="address">
              
-            <span class="text-danger">@emailAddressErrorMessage</span>
+@*             <span class="text-danger">@addressErrorMessage</span>
+ *@        </div>
+        
+        <div class="form-section">
+            <input @bind="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" type="text" placeholder="Email" id="email">
+             
+            @* <span class="text-danger">@emailAddressErrorMessage</span> *@
         </div>
-        <input @bind="password" type="password" name="Password" autocomplete="off" placeholder="Password"/>
+        <input @bind="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" type="password" name="Password" autocomplete="off" placeholder="Password" />
+            @* <span class="text-danger">@passwordErrorMessage</span> *@
 
-
-        <input @bind="password2" type="password" name="Password" autocomplete="off" placeholder="Password" />
-        @*<button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>*@
+        
+            <input @bind="password2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Re-enter Password'" type="password" name="Re-enter Password" autocomplete="off" placeholder="Password" />
+        <span class="text-danger">@fieldErrorMessage</span>
         <button class="glow-on-hover" type="button" @onclick="SubmitReg">Submit</button>
     </form>
      
@@ -87,16 +72,19 @@
     string password = "";
     string password2 = "";
     //string reenterPassword = "";
-    string dob = "12122012";
+     
     private string fNameErrorMessage;
     private string lNameErrorMessage;
+    private string dobErrorMessage;
     private string passwordErrorMessage;
     private string addressErrorMessage;
     private string emailAddressErrorMessage;
+    private string fieldErrorMessage;
     private string connectionString = "";
     
     string fname = "";
     string lname = "";
+    string dob = "";
     string address = "";
     string email = "";
     
@@ -148,48 +136,16 @@
     }
     private void ValidateForm()
     {
-        if (string.IsNullOrWhiteSpace(fname))
-        {
-            fNameErrorMessage = "First name is required.";
+        if (string.IsNullOrWhiteSpace(fname) || string.IsNullOrWhiteSpace(lname) || string.IsNullOrWhiteSpace(address) || string.IsNullOrWhiteSpace(dob)
+        || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(password2))
+    {
+            fieldErrorMessage = "All Fields Must be Complete!";
         }
         else
         {
-            fNameErrorMessage = null;
+            fieldErrorMessage = null;
         }
-
-        if (string.IsNullOrWhiteSpace(lname))
-        {
-            lNameErrorMessage = "Last name is required.";
-        }
-        else
-        {
-            lNameErrorMessage = null;
-        }
-        if (string.IsNullOrWhiteSpace(email))
-        {
-            emailAddressErrorMessage = "email is required.";
-        }
-        else
-        {
-            emailAddressErrorMessage = null;
-        }
-        if (string.IsNullOrWhiteSpace(address))
-        {
-            addressErrorMessage = "address is required.";
-        }
-        else
-        {
-            addressErrorMessage = null;
-        }
-        if (string.IsNullOrWhiteSpace(password))
-        {
-            passwordErrorMessage = "Password is required.";
-        }
-
-        else
-        {
-            passwordErrorMessage = null;
-        }
+ 
     }
      
 

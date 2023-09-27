@@ -2,8 +2,9 @@
 @layout BaseLayout
 @inject Blazored.SessionStorage.ISessionStorageService session
 @inject Microsoft.AspNetCore.Components.NavigationManager NavigationManager 
-@using DataAccessLibrary
+@using DataAccessLibrary dataAccess
 @using BlazerUI.Data
+ 
  <head>
      
     <title> </title>
@@ -56,14 +57,15 @@
 }
 @do
 {
-    GetSessionUser();
-    if (sessionUser != null && sessionUser != "Initialized")
+   
+    string user = GetSessionUser();
+    if (user == "Initialized" || user == "" || user == null)
     {
-        
+             NavManager.NavigateTo("/", true);
     }
     else
     {
-        NavManager.NavigateTo("/", true);
+        sessionUser = "set";
 
     }
 
@@ -96,10 +98,10 @@
 
     List<string> messages = new List<string>();
     string sessionUser;
-    public async Task GetSessionUser()
+    public string GetSessionUser()
     {
         sessionUser = httpAccessor.HttpContext.Session.GetString("Username");
-        
+        return sessionUser;
     }
      
     private async Task GenerateMessage()

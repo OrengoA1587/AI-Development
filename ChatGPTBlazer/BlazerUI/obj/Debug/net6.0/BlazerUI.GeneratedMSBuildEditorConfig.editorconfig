@@ -20,10 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Data/GetSession.razor]
-build_metadata.AdditionalFiles.TargetPath = RGF0YVxHZXRTZXNzaW9uLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,12 +28,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/Error404.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3I0MDQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/GetSession.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2V0U2Vzc2lvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/InvalidUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52YWxpZFVzZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/oreng/OneDrive/Documents/GitHub/AI Development/ChatGPTBlazer/BlazerUI/Pages/LoginModal.razor]

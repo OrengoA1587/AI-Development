@@ -10,16 +10,48 @@
 <link href="css/button-style.css" rel="stylesheet" />
 <link href="css/navbar.css" rel="stylesheet" />
 <link rel="stylesheet" href="bootstrap2/bootstrap.min.css"> 
+@do
+{
+    if(httpAccessor.HttpContext.Session.GetString("Username") != null)
+    {
+        loop = "done";
+    }
+    else
+    {
+        GetUserSession();
+    }
+     
+    if (user == "set")
+    {
+        NavigationManager.NavigateTo("/", true);
+        loop = "done";
+    }
+    else
+    {
+         
 
+    }
+
+} while (loop != "done");
 <PageTitle>FTCC's' AI Chatbot</PageTitle>
-@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Http;
 @inject HttpClient Http;
 @inject IConfiguration configuration;
-@inject NavigationManager NavManager
+ 
 @inject IHttpContextAccessor httpAccessor;
 @inject Microsoft.AspNetCore.Components.NavigationManager NavigationManager
- 
+
+
 @code
+
 {
-   
+    string sessionUser;
+    string loop;
+    string user;
+    public string GetUserSession()
+    {
+        NavigationManager.NavigateTo("GetSession", true);
+        return "set";
+    }
+
 }

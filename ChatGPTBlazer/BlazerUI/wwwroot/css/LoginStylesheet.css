@@ -61,7 +61,7 @@ form {
 
     form * {
         font-family: 'Poppins',sans-serif;
-        //color: #ffffff;
+        color: black;
         letter-spacing: 0.5px;
         outline: none;
         border: none;
@@ -113,7 +113,10 @@ button {
     border-color:black;
     cursor: pointer;
 }
-
+button:hover {
+    background: linear-gradient(#f077fd, #93fdfc );
+}
+ 
 .social {
     margin-top: 30px;
     padding-left: 0px;

@@ -15,7 +15,11 @@ namespace DataAccessLibrary
 
         public bool InsertPersonIntoDatabase(string fName, string lName, string address, string email, string plaintext,string dob,ref string connectionString)
         {
-            string password = Convert.ToBase64String(GetEncryptedPassword(plaintext));           
+            if (fName == "" || lName == "" || address == "" || email == "" || plaintext == "" || dob == "" )
+            { return false; }
+            
+
+            string password = Convert.ToBase64String(GetEncryptedPassword(plaintext));          
              
             SqlConnection sqlcon = new SqlConnection();
             string statement = "INSERT INTO PeopleTest(FirstName,LastName,Address,DateOfBirth,EmailAddress,Username,Password) VALUES (@fName,@lName,@address,@dob,@email,@username,@password)";
@@ -38,15 +42,13 @@ namespace DataAccessLibrary
                     {
                         Console.WriteLine("Data inserted successfully.");
                         sqlcon.Close();
-                        return true;
-                         
+                        return true;                         
                     }
                     else
                     {
                         sqlcon.Close();
                         return false;
-                    }
-                     
+                    }                     
                 }
             }
             catch (SqlException e)

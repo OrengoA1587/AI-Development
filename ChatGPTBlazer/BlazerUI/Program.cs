@@ -20,23 +20,30 @@ builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddTransient<IPeopleData, PeopleData>();
 builder.Services.AddHttpClient();
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddBlazoredSessionStorage();
 builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
- 
+builder.Services.AddDistributedMemoryCache();
+//builder.Services.Configure<CookiePolicyOptions>(options =>
+//{
+//    // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+//    options.CheckConsentNeeded = context => false;
+//    options.MinimumSameSitePolicy = SameSiteMode.None;
+//});
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(10); // Set your desired timeout period
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
+ 
 });
 
- var app = builder.Build();
+var app = builder.Build();
      
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
-{
- 
-    app.UseExceptionHandler("/Error");
+{ 
+    app.UseExceptionHandler("Error404");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
@@ -47,10 +54,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
-app.MapBlazorHub();
-app.MapFallbackToPage("/_Host");
+ app.MapBlazorHub();
+ app.MapFallbackToPage("/_Host");
 
 app.Run();
-//Initialize a default session
-httpAccessor.HttpContext.Session.SetString("Username", "Initialized");
+ 

@@ -109,14 +109,10 @@
         </div>
 
         <article class="content px-4" >
-            @do
-            {
-                OnInitialized();
-
-            } while (establishSession == false);
-            @Body
             
-             
+            @Body
+
+           
         </article>
         
     </main>
@@ -135,15 +131,16 @@
 @inject IHttpContextAccessor httpAccessor;
 @code
 {
-    private string message = "";
-    private bool establishSession = false;
-    public async Task OnInitialized()
-    {
-        //This code will run when the component is initialized.
-        if (message == "")
-        {
-            establishSession = true;
-            httpAccessor.HttpContext.Session.SetString("Username", "Initialized");
-        }
-    }
+    // private string message = "";
+    // private bool establishSession = false;
+    // public bool OnInitialized()
+    // {
+    //     //This code will run when the component is initialized.
+    //     if (message == "")
+    //     {
+    //         establishSession = true;
+    //         httpAccessor.HttpContext.Session.SetString("Username", "Initialized");
+    //     }
+    //     return true;
+    // }
 }
