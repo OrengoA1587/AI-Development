@@ -1,15 +1,14 @@
 ﻿@page "/logintest"
-@layout BaseLayout
+@layout ChatRobotLayout
 @inject Blazored.SessionStorage.ISessionStorageService session
 @inject Microsoft.AspNetCore.Components.NavigationManager NavigationManager 
-@using DataAccessLibrary dataAccess
+@using DataAccessLibrary
 @using BlazerUI.Data
  
  <head>
      
     <title> </title>
     <link rel="stylesheet" href="css/DashboardStylesheet.css" />
-    <link rel="stylesheet" href="css/LoginStylesheet.css" />
     <link href="css/site.css" rel="stylesheet" />
     <link href="css/button-style.css" rel="stylesheet" />
     <link href="css/navbar.css" rel="stylesheet" />
@@ -23,11 +22,14 @@
 <div class="dashboard-background">
         <div class="container-fluid">
             <div class="container-box1">
-                <input class="input-textbox" @bind="topic" placeholder="Enter Message --> "></input>
+                 
+                <input class="input-textbox" @bind="topic" placeholder="Ask VITA --> "></input>
+                 
             </div>
             <br>
-            <div class="container-box1">
-                <input class="input-textbox textbox-temp" @bind="getTemp" placeholder="Temp"></input>
+            <div class="container-box1"> 
+                 
+                <input class="input-textbox textbox-temp" @bind="getTemp" placeholder="Temp" ></input>
             </div>
         </div>
         <p class="chatbot-output-box" style="text-align:justify;display:inline-block;background-color: @backgroundColor;">
@@ -47,13 +49,14 @@
                 }
             }
         </p>
-        <button class="glow-on-hover" @onclick="GenerateMessage">Ask ChatAI</button>
-        <button class="btn-hover color-2" @onclick="ClearBox">CLEAR</button>
-        <button class="btn-hover color-4" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
-        <button class="btn-hover color-3" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
+         
 
 
     </div>
+    <button class="btn-hover color-1" @onclick="GenerateMessage">Ask ChatAI</button>
+    <button class="btn-hover color-2" @onclick="ClearBox">CLEAR</button>
+    <button class="btn-hover color-3" @onclick="ChangeBackgroundColor">Toggle Blk/Wht</button>
+    <button class="btn-hover color-4" @onclick="ChangeBackgroundColorRandom">RANDOM COLOR</button>
 }
 @do
 {
@@ -117,11 +120,14 @@
             messages.Add(topic);
             var jsonContent = new
             {
-                prompt = "Teach me how to do" + $"{topic}",
+                prompt = "Teach me how to do" + $"{topic}" + "But do not give me the answer",
+                //prompt = "Teach me how to do" + $"{topic}",
+                //prompt = "Teach me how to do" + $"{topic}",
                 model = "text-davinci-003",
                 temperature = temp,
                 max_tokens = 1000           
             };            
+            //var responseContent = await Http.PostAsync("https://api.goose.ai/v1", new StringContent(JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
 
             var responseContent = await Http.PostAsync("https://api.openai.com/v1/completions", new StringContent(JsonConvert.SerializeObject(jsonContent), Encoding.UTF8, "application/json"));
             var resContext = await responseContent.Content.ReadAsStringAsync();

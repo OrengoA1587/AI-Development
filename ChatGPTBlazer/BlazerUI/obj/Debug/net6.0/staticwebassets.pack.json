@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\FTCC2.png"
     },
     {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCCProjectVITA.png",
+      "PackagePath": "staticwebassets\\Images\\FTCCProjectVITA.png"
+    },
+    {
       "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC_AI_Head.png",
       "PackagePath": "staticwebassets\\Images\\FTCC_AI_Head.png"
     },
@@ -29,12 +33,28 @@
       "PackagePath": "staticwebassets\\Images\\Untitled design(108).png"
     },
     {
-      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\background_1.jpg",
-      "PackagePath": "staticwebassets\\Images\\background_1.jpg"
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\Untitled design(109).png",
+      "PackagePath": "staticwebassets\\Images\\Untitled design(109).png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\VITA.png",
+      "PackagePath": "staticwebassets\\Images\\VITA.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\VITA_Opacity50.png",
+      "PackagePath": "staticwebassets\\Images\\VITA_Opacity50.png"
     },
     {
       "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fayettevilletech_logo_full.png",
       "PackagePath": "staticwebassets\\Images\\fayettevilletech_logo_full.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fayettevilletech_logo_white.png",
+      "PackagePath": "staticwebassets\\Images\\fayettevilletech_logo_white.png"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fotor-ai-2023101284013.jpg",
+      "PackagePath": "staticwebassets\\Images\\fotor-ai-2023101284013.jpg"
     },
     {
       "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\BaseLayout.css",
@@ -87,6 +107,10 @@
     {
       "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\loginAction.js",
       "PackagePath": "staticwebassets\\css\\bootstrap\\js\\loginAction.js"
+    },
+    {
+      "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\navbarhide.js",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\js\\navbarhide.js"
     },
     {
       "Id": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\theme.js",

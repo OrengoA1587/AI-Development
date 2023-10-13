@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LNyaiyApkHub+L2MSIdAvaCBNafNpIp5W6/B4wgYdwI=",
+  "Hash": "nsU4KM2PbLOEInT38pms7Q0FH9QjHeJkYfbLtvN0qZo=",
   "Source": "BlazerUI",
   "BasePath": "_content/BlazerUI",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\js\\loginAction.js"
+    },
+    {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\navbarhide.js",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "css/bootstrap/js/navbarhide.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\js\\navbarhide.js"
     },
     {
       "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\css\\bootstrap\\js\\theme.js",
@@ -578,23 +595,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\background_1.jpg",
-      "SourceId": "BlazerUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
-      "BasePath": "_content/BlazerUI",
-      "RelativePath": "Images/background_1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\background_1.jpg"
-    },
-    {
       "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fayettevilletech_logo_full.png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
@@ -610,6 +610,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\fayettevilletech_logo_full.png"
+    },
+    {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fayettevilletech_logo_white.png",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "Images/fayettevilletech_logo_white.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\fayettevilletech_logo_white.png"
+    },
+    {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\fotor-ai-2023101284013.jpg",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "Images/fotor-ai-2023101284013.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\fotor-ai-2023101284013.jpg"
     },
     {
       "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCC_AI_Head.png",
@@ -663,6 +697,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\FTCC2.png"
     },
     {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\FTCCProjectVITA.png",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "Images/FTCCProjectVITA.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\FTCCProjectVITA.png"
+    },
+    {
       "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\TrojanLogo.png",
       "SourceId": "BlazerUI",
       "SourceType": "Discovered",
@@ -712,6 +763,57 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Untitled design(108).png"
+    },
+    {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\Untitled design(109).png",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "Images/Untitled design(109).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Untitled design(109).png"
+    },
+    {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\VITA.png",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "Images/VITA.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\VITA.png"
+    },
+    {
+      "Identity": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\Images\\VITA_Opacity50.png",
+      "SourceId": "BlazerUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\AI Development\\ChatGPTBlazer\\BlazerUI\\wwwroot\\",
+      "BasePath": "_content/BlazerUI",
+      "RelativePath": "Images/VITA_Opacity50.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\VITA_Opacity50.png"
     }
   ]
 }

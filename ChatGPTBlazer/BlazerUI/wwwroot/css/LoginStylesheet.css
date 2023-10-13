@@ -4,13 +4,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    left: 50%;
+     
 }
 
 body {
-    background-color:transparent;
+    background-color: transparent;
     position: relative;
-     
-
+    left: -700%;
+    background-color: black;
 }
 
 .background {
@@ -18,12 +20,8 @@ body {
     width: 400px;
     height: 720px;
     position: absolute;
-    transform: translate(9%,-47%);
-    left: 120%;
-    top: 48%;
-    border-radius:25px;
-}
- 
+      
+} 
     .background .shape {
         height: 200px;
         width: 200px;
@@ -44,38 +42,40 @@ body {
 }
 
 form {
-    height: 720px;
-    width: 400px;
+    height: 680px;
+    width: 350px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(25%,-50%);
-    top: 150%;
-    left: 100%;
+    top: 15%;     
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 50px 35px;
-    margin-top: -100px;
-}
+     
+ }
 
     form * {
         font-family: 'Poppins',sans-serif;
-        color: black;
+        color: white;
+
         letter-spacing: 0.5px;
         outline: none;
         border: none;
     }
 
     form h3 {
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 500;
-        line-height: 42px;
+        line-height: 5rem;
         text-align: center;
         color:white;
+         
     }
-     
-    
+h3,.heading-main {
+    border-radius: 10px;
+}
+
 label {
     display: block;
     margin-top: 30px;

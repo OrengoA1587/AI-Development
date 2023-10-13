@@ -319,9 +319,7 @@ C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\b
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Dapper.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\DataAccessLibrary.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\DataAccessLibrary.pdb
-C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\App.config
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\NLog.dll
-C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\DataAccessLibrary.dll.config
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Azure.Core.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Azure.Identity.dll
 C:\Users\oreng\OneDrive\Documents\GitHub\AI Development\ChatGPTBlazer\BlazerUI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
