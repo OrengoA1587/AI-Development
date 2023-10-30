@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "VITA", "VITA\VITA.pyproj", "{CBCBB292-2A60-4B0A-B5C2-EFAA8554B5E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBCBB292-2A60-4B0A-B5C2-EFAA8554B5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBCBB292-2A60-4B0A-B5C2-EFAA8554B5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBCBB292-2A60-4B0A-B5C2-EFAA8554B5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBCBB292-2A60-4B0A-B5C2-EFAA8554B5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DEA7C7E-5137-4E23-AABA-3B93808D6809}
+	EndGlobalSection
+EndGlobal

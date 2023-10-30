@@ -1,0 +1,51 @@
+﻿
+.body {
+    max-width: 80%;
+     
+}
+.body {
+    
+}
+
+.dashboard-background {
+    position: absolute;
+    justify-content: center;
+    background: linear-gradient(#f077fd, #93fdfc );
+    width: 40%;
+    max-width: 40%;
+    top: 25%;
+    left: 2%;
+    border-radius: 10px;
+
+}
+h1, .dashboard-heading {
+    
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+     
+}
+h3, .dashboard-heading1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+}
+
+.container-box1 {
+    font-size: 14px;
+    justify-content: center;
+    position: center;
+    width: auto;
+    max-width: 90%;
+}
+.chatbot-output-box {
+    font-size: 14px;
+    justify-content: center;
+    position: center;
+    width: 50%;
+    max-width: 90%;
+}
