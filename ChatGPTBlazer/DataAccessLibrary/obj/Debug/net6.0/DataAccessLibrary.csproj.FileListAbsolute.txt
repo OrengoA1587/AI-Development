@@ -38,3 +38,15 @@ C:\Users\oreng\OneDrive\Desktop\AIBackup\ChatGPTBlazer\DataAccessLibrary\obj\Deb
 C:\Users\oreng\OneDrive\Desktop\AIBackup\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\refint\DataAccessLibrary.dll
 C:\Users\oreng\OneDrive\Desktop\AIBackup\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.pdb
 C:\Users\oreng\OneDrive\Desktop\AIBackup\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\ref\DataAccessLibrary.dll
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.deps.json
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.dll
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\bin\Debug\net6.0\DataAccessLibrary.pdb
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.csproj.AssemblyReference.cache
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.AssemblyInfoInputs.cache
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.AssemblyInfo.cs
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.csproj.CoreCompileInputs.cache
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.dll
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\refint\DataAccessLibrary.dll
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\DataAccessLibrary.pdb
+G:\AI-Development\ChatGPTBlazer\DataAccessLibrary\obj\Debug\net6.0\ref\DataAccessLibrary.dll
