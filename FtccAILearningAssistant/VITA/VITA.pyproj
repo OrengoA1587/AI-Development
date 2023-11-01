@@ -67,6 +67,7 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="app\templates\app\extra\" />
     <Folder Include="VITA\" />
   </ItemGroup>
   <ItemGroup>
@@ -79,7 +80,9 @@
     <Content Include="app\static\app\bootstrap\js\loginAction.js" />
     <Content Include="app\static\app\bootstrap\js\navbarhide.js" />
     <Content Include="app\static\app\bootstrap\js\theme.js" />
-    <Content Include="app\static\app\css\BaseLayout.css" />
+    <Content Include="app\static\app\images\vita-project-logo.jpg" />
+    <Content Include="app\static\loginnew.css" />
+    <Content Include="app\static\BaseLayout.css" />
     <Content Include="app\static\app\css\boostrap2\bootstrap.min.css" />
     <Content Include="app\static\app\css\boostrap2\Navigation-with-Button.css" />
     <Content Include="app\static\app\css\bootstrap\css\bootstrap.min.css" />
@@ -91,13 +94,14 @@
     <Content Include="app\static\app\css\bootstrap\js\loginAction.js" />
     <Content Include="app\static\app\css\bootstrap\js\navbarhide.js" />
     <Content Include="app\static\app\css\bootstrap\js\theme.js" />
-    <Content Include="app\static\app\css\button-style.css" />
-    <Content Include="app\static\app\css\button-style2.css" />
-    <Content Include="app\static\app\css\calculatorPage.css" />
-    <Content Include="app\static\app\css\DashboardStylesheet.css" />
-    <Content Include="app\static\app\css\indexPage.css" />
-    <Content Include="app\static\app\css\LoginStylesheet.css" />
-    <Content Include="app\static\app\css\navbar.css" />
+    <Content Include="app\static\button-style.css" />
+    <Content Include="app\static\button-style2.css" />
+    <Content Include="app\static\calculatorPage.css" />
+    <Content Include="app\static\DashboardStylesheet.css" />
+    <Content Include="app\static\indexPage.css" />
+    <Content Include="app\static\LoginStylesheet.css" />
+    <Content Include="app\static\MainLayout.css" />
+    <Content Include="app\static\navbar.css" />
     <Content Include="app\static\app\css\open-iconic\FONT-LICENSE" />
     <Content Include="app\static\app\css\open-iconic\font\css\open-iconic-bootstrap.min.css" />
     <Content Include="app\static\app\css\open-iconic\font\fonts\open-iconic.eot" />
@@ -107,9 +111,10 @@
     <Content Include="app\static\app\css\open-iconic\font\fonts\open-iconic.woff" />
     <Content Include="app\static\app\css\open-iconic\ICON-LICENSE" />
     <Content Include="app\static\app\css\open-iconic\README.md" />
-    <Content Include="app\static\app\css\RegistrationStyleSheet.css" />
-    <Content Include="app\static\app\css\site.css" />
-    <Content Include="app\static\app\css\styles.css" />
+    <Content Include="app\static\NavMenu.razor.css" />
+    <Content Include="app\static\RegistrationStyleSheet.css" />
+    <Content Include="app\static\site.css" />
+    <Content Include="app\static\styles.css" />
     <Content Include="app\static\app\images\fayettevilletech_logo_full.png" />
     <Content Include="app\static\app\images\fayettevilletech_logo_white.png" />
     <Content Include="app\static\app\images\fotor-ai-2023101284013.jpg" />
@@ -123,6 +128,9 @@
     <Content Include="app\static\app\images\Untitled design%28109%29.png" />
     <Content Include="app\static\app\images\VITA.png" />
     <Content Include="app\static\app\images\VITA_Opacity50.png" />
+    <Content Include="app\templates\app\extra\loginlayout.html" />
+    <Content Include="app\templates\app\loginlayout.html" />
+    <Content Include="app\templates\app\login2.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

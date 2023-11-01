@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <title></title>
+    {% load static %}
+    <link type="text/css" rel="stylesheet" href="{% static 'loginnew.css' %}" />
+ 
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">-->
+</head>
+   
+    
+<body>
+    <nav id="topnav">
+
+        <a id="logo" class="nav-link" href="/">Home</a>
+        <a class="nav-link" href="https://www.faytechcc.edu/">FTCC</a>
+        <a class="nav-link" href="https://faytechcc.blackboard.com/?new_loc=%2Fultra%2Fcourse">Blackboard</a>
+        <a class="nav-link" href="https://selfserv.faytechcc.edu/">Self-Service</a>
+        <a class="nav-link" href="https://www.faytechcc.edu/contact/">Contact</a>
+
+
+    </nav>
+    <section class="login">
+        <div class="login_box">
+            <div class="left">
+                <div class="top_link"><a href="#"><img src="{% static 'app/images/vita-project-logo.jpg' %}" />Return home</a></div>
+                <div class="contact">
+                    <form action="">
+                        <h3>SIGN IN</h3>
+                        <input type="text" placeholder="USERNAME">
+                        <input type="text" placeholder="PASSWORD">
+                        <button class="submit">LET'S GO</button>
+                    </form>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-text">
+                    <h2>VITA</h2>
+                    <h5>VIRTUAL INTELLIGENCE TRAINING ASSISTANT</h5>
+                </div>
+                <div class="right-inductor"><img src="{% static 'app/images/vita-project-logo.jpg' %}" /></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <title></title>
+    {% load static %}
+    <link type="text/css" rel="stylesheet" href="{% static 'BaseLayout.css' %}" />
+    <link type="text/css" rel="stylesheet" href="{% static 'LoginStylesheet.css' %}" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+    <script src="{% static 'app/bootstrap/js/jquery.min.js' %}"></script>
+    <script src="{% static 'app/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'app/bootstrap/js/bs-init.js' %}"></script>
+    <script src="{% static 'app/bootstrap/js/loginAction.js' %}"></script>
+    <script src="{% static 'app/bootstrap/js/theme.js' %}"></script>
+    <script src="{% static 'app/bootstrap/js/chart.min.js' %}"></script>
+    <script src="{% static 'app/LoginAction.js' %}"></script>
+    <script defer src="https://app.fastbots.ai/embed.js"
+            data-bot-id="clmgssu5z002dprabptscytkn"
+            data-fabicon="http://d7keiwzj12p9.cloudfront.net/chatbubbles/Untitled_design(112)-1697201379457.webp"
+            data-fab-position="right"
+            data-fabbg="#ffffff"></script>
+</head>
+<nav id="topnav">
+
+    <a id="logo" class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="https://www.faytechcc.edu/">FTCC</a>
+    <a class="nav-link" href="https://faytechcc.blackboard.com/?new_loc=%2Fultra%2Fcourse">Blackboard</a>
+    <a class="nav-link" href="https://selfserv.faytechcc.edu/">Self-Service</a>
+    <a class="nav-link" href="https://www.faytechcc.edu/contact/">Contact</a>
+
+
+</nav>
+<div class="glow-button-container">
+    <form class="glow-on-hover">
+        <h3 class=" heading-main"> </h3>
+        <h3>Student Login</h3>
+        <label for="username"> </label>
+        <input @bind="username" type="text" placeholder="Username" id="username">
+        <label for="password"> </label>
+        <input @bind="password" type="password" placeholder="Password" id="password">
+
+
+        <button class="glow-on-hover" type="button" @onclick="Login">Log In</button>
+        <div class="social">
+            <div class="go"><a class="fab fa-google" href="https://www.google.com">oogle</a></div>
+            <div class="fb"> <a class="fab fa-facebook" href="https://www.facebook.com/">acebook</a></div>
+        </div>
+    </form>
+</div>
+</html>
